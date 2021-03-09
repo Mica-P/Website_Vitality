@@ -7,20 +7,20 @@
     text-decoration: 0;
     list-style: none;
     box-sizing: border-box;
-    overflow: hidden; /* Hide scrollbars */
 }
 /*Mobile screen and tablet potrait screen*/
 @media screen and (min-width: 100px) and (max-width: 768px){
     .background, #pink-line, .bigscreen-content {display: none;}
     details summary::-webkit-details-marker {display:none;}
+    body {background-color: #F7BAAE;}
     .hamburger-icon {cursor: pointer;}
     #mini-logo {
         position: absolute;
         height: 7rem;
-        margin-left: 30%;
+        margin-left: 35vw;
     }
    .hamburger-icon {
-        position: absolute; 
+       position: absolute; 
        margin-top: 15px;
        margin-left: 80%;
        font-size: 3rem;
@@ -28,7 +28,7 @@
     }
     .first-nav { 
         background-color: #FFCB78;
-        height: 700px;
+        height: 950px;
         text-align: center;
         padding: 50px;  
     }.first-nav li {
@@ -51,44 +51,54 @@
     h1 {
         position: absolute;
         margin-top: 44vh;
-        margin-left: 10%;
+        margin-left: 20vw;
         font-size: 2.5rem;
         color: white;  
     }
     h2 {
         position: absolute;
         margin-top: 50vh;
-        margin-left: 20%;
+        margin-left: 25vw;
         font-size: 2.2rem;
         color: #FFCB78; 
     }
-    .second-nav {
-        position: absolute;
-        text-align: center;
-        margin-top: 60vh; 
-    }
-    .second-nav a {
-        font-size: 1.3rem;
-        line-height: 50px;
-        font-family: 'Montserrat', sans-serif;
-        color: white;
-        margin-left: 25vw; 
-    }
     .copyright {
         position: absolute;
-        margin-top: 97vh;
-        margin-left: 10%;
+        margin-top: 130vh;
+        margin-left: 10vw;
         color: white;
     }
     .mobile-background {
-       height: 750px;
+       height: 1090px;
        width: 100%; 
    }
-   
+    section {
+       position: absolute;
+       font-family: 'Oswald', sans-serif;
+       margin-top: 60vh;
+       margin-left: 5vw;
+       font-size: 1.2rem;
+       color: white;
+       text-align: center;
+    }
+    .artiesten {
+       margin-top: 60vh;
+       margin-left: 30vw;
+    }
+    .evenementen {
+       margin-top: 80vh;
+       margin-left: 25vw;
+    }
+    .aanbiedingen {
+       margin-top: 100vh;
+       margin-left: 25vw;
+}
+h3 {color: #FFCB78;}
 }
 
 /*Big screen and tablet landscape screen*/
 @media screen and (min-width: 768.1px){
+    body {    overflow: hidden; /* Hide scrollbars */}
     .mobile-background, .mobile-content, .hamburger-icon2{display: none;}
     #mini-logo {
     position: absolute;
@@ -141,15 +151,6 @@ h3 {
     margin-left: 60vw;
     height: 400px;
 }
-section{
-    position: absolute;
-    font-family: 'Oswald', sans-serif;
-    margin-top: 60vh;
-    margin-left: 5vw;
-    font-size: 1.7rem;
-    color: white;
-}
-
 .background {
     height: 113vh;
     margin-top: -99px;
@@ -166,8 +167,19 @@ p {
 body {
     background-color: #F7BAAE;
 }
-.artist-box {
-    text-align: center;
+section{
+    position: absolute;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 60vh;
+    margin-left: 5vw;
+    font-size: 1.7rem;
     color: white;
+    
+}
+.evenementen {
+    margin-left: 30vw;
+}
+.aanbiedingen {
+    margin-left: 60vw;
 }
 }

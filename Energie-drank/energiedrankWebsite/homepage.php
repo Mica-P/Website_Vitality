@@ -51,7 +51,7 @@
     </article>
     <img id="orange-can" src="./images/orange-flavor.png" alt="blikje">
   </main>
-  <section class="second-nav">
+  <section class="artiesten">
     <h3>Komede artiesten</h3>
       <?php
     //stap 1
@@ -71,9 +71,11 @@
         $result->close();
     }
     ?>
-
+    </section>
+    <section class="evenementen">
+      <h3>Komende evenementen</h3>
     <?php
-    $evenementen = "SELECT * FROM evenementen LIMIT 3";
+    $evenementen = "SELECT * FROM evenementen ORDER BY datum LIMIT 3";
     if ($result = $conn->query($evenementen)){
         while($row = $result->fetch_array(MYSQLI_BOTH)){
             echo $row[1]. "  ". "<br>"; 
@@ -82,11 +84,23 @@
     }
     ?>
   </section>
+  <section class="aanbiedingen">
+      <h3>Komende aanbiedingen</h3>
+    <?php
+    $aanbiedingen = "SELECT titel FROM aanbiedingen ORDER BY begindatum LIMIT 3";
+    if ($result = $conn->query($aanbiedingen)){
+        while($row = $result->fetch_array(MYSQLI_BOTH)){
+            echo $row[0]. "  ". "<br>"; 
+        }
+        $result->close();
+    }
+    ?>
+  </section>
   <p class="copyright">© 2021 Vitality Energy. All rights reserved</p>
   <footer>
     <img id="pink-line" src="./images/pink-line.png" alt="pink-line">
-    <img class="mobile-background" src="./images/mobile-achtergrond.png" alt="">
-    <img class="background" src="./images/achtergrond.png" alt="">
+    <img class="mobile-background" src="./images/mobile-achtergrond.png" alt="mobile-background">
+    <img class="background" src="./images/achtergrond.png" alt="bigscreen-background">
   </footer>
 </body>
 
