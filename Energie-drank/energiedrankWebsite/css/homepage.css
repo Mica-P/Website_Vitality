@@ -129,6 +129,12 @@ h2 {
     font-family: 'Oswald', sans-serif;
     color: #FFCB78;
 }
+h3 {
+    margin-top: 0vh;
+    font-size: 2rem;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
 #orange-can {
     position: absolute;
     margin-top: 8vh;
@@ -137,19 +143,13 @@ h2 {
 }
 section{
     position: absolute;
-    margin-top: 75vh;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 60vh;
     margin-left: 5vw;
-}
-section li {
-    display: inline;
-    padding: 60px;
-}
-section a {
-    font-size: 1.8rem;
-    font-family: 'Montserrat', sans-serif;
+    font-size: 1.7rem;
     color: white;
 }
-section a:hover{color: red;}
+
 .background {
     height: 113vh;
     margin-top: -99px;
@@ -165,5 +165,9 @@ p {
 }
 body {
     background-color: #F7BAAE;
+}
+.artist-box {
+    text-align: center;
+    color: white;
 }
 }

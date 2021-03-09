@@ -44,7 +44,16 @@
     </nav>
   </div>
   <main>
-  <?php
+
+    <article>
+      <h1>ENERGY DRANK</h1>
+      <h2>Vitality Boost</h2>
+    </article>
+    <img id="orange-can" src="./images/orange-flavor.png" alt="blikje">
+  </main>
+  <section class="second-nav">
+    <h3>Komede artiesten</h3>
+      <?php
     //stap 1
     $servername = "localhost";
     $username = "root";
@@ -54,25 +63,24 @@
     if ($conn->connect_error){
         die("Connection failed ". $conn-connect_error);
     }
-    $sql = "SELECT * FROM evenementen";
-    if ($result = $conn->query($sql)){
+    $artiesten = "SELECT * FROM artiesten LIMIT 3";
+    if ($result = $conn->query($artiesten)){
         while($row = $result->fetch_array(MYSQLI_BOTH)){
-            echo $row[1]. "  ".$row[2]. "<br>"; 
+            echo $row[1]. "  ". "<br>"; 
         }
         $result->close();
     }
     ?>
-    <article>
-      <h1>ENERGY DRANK</h1>
-      <h2>Vitality Boost</h2>
-    </article>
-    <img id="orange-can" src="./images/orange-flavor.png" alt="blikje">
-  </main>
-  <section class="second-nav">
-    <li><a href="#">komende events</a></li>
-    <li><a href="#">event details</a></li>
-    <li><a href="#">artiesten details</a></li>
-    <li><a href="#">aanbiedingen</a></li>
+
+    <?php
+    $evenementen = "SELECT * FROM evenementen LIMIT 3";
+    if ($result = $conn->query($evenementen)){
+        while($row = $result->fetch_array(MYSQLI_BOTH)){
+            echo $row[1]. "  ". "<br>"; 
+        }
+        $result->close();
+    }
+    ?>
   </section>
   <p class="copyright">© 2021 Vitality Energy. All rights reserved</p>
   <footer>
