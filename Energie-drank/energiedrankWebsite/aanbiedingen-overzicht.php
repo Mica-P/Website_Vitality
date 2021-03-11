@@ -8,7 +8,7 @@
     <meta name="keywords" content="Vitality, energiedrank, website">
     <meta name="author" content="Mica Paulo, Sijme Heemskerk, Mike van Duyvenbode, Dinand Dummer">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="./css/aanbieding-details.css">
+    <link rel="stylesheet" type="text/css" href="./css/aanbiedingen-overzicht.css">
     <title>Aanbiedingen overzicht</title>
 </head>
 
@@ -43,8 +43,11 @@
         </ul>
     </nav>
     <section class="title-image-container">
-        <h1>Aanbiedingen overzicht</h1>
+        <h1>Komende aanbiedingen</h1>
+        <img class="sale-img" src="./images/sale.jpg" alt="image sale">
     </section>
+   
+    <article class="aanbiedingen">
     <?php
     //stap 1
     $servername = "localhost";
@@ -55,15 +58,20 @@
     if ($conn->connect_error){
         die("Connection failed ". $conn-connect_error);
     }
-    $aanbiedingen = "SELECT * FROM aanbiedingen ORDER BY begindatum LIMIT 6";
+    $aanbiedingen = "SELECT * FROM aanbiedingen ORDER BY begindatum LIMIT 3";
     if ($result = $conn->query($aanbiedingen)){
         while($row = $result->fetch_array(MYSQLI_BOTH)){
-            echo $row[1]. "  ". "<br>"; 
+            echo " ".$row[1]." "; 
         }
         $result->close();
     }
     ?>
-
+</article>
+<section class="link-box">
+    <a class="link1" href="aanbieding-details.php">Klik hier</a>
+    <a class="link2" href="aanbieding-details.php">Klik hier</a>
+    <a class="link3" href="aanbieding-details.php">Klik hier</a>
+</section>
 
 
 

@@ -44,7 +44,6 @@
   <section class="title-image-container">
     <h1>Over ons</h1>
   </section>
-kaas
 
 
 

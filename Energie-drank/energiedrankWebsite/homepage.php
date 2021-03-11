@@ -85,7 +85,9 @@
     ?>
   </section>
   <section class="aanbiedingen">
+    <a href="aanbiedingen-overzicht.php">
       <h3>Komende aanbiedingen</h3>
+      </a>
     <?php
     $aanbiedingen = "SELECT titel FROM aanbiedingen ORDER BY begindatum LIMIT 3";
     if ($result = $conn->query($aanbiedingen)){
