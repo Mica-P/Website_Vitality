@@ -44,7 +44,16 @@
     </nav>
   </div>
   <main>
-  <?php
+
+    <article>
+      <h1>ENERGY DRANK</h1>
+      <h2>Vitality Boost</h2>
+    </article>
+    <img id="orange-can" src="./images/orange-flavor.png" alt="blikje">
+  </main>
+  <section class="artiesten">
+    <h3>Komede artiesten</h3>
+      <?php
     //stap 1
     $servername = "localhost";
     $username = "root";
@@ -54,31 +63,44 @@
     if ($conn->connect_error){
         die("Connection failed ". $conn-connect_error);
     }
-    $sql = "SELECT * FROM evenementen";
-    if ($result = $conn->query($sql)){
+    $artiesten = "SELECT * FROM artiesten LIMIT 3";
+    if ($result = $conn->query($artiesten)){
         while($row = $result->fetch_array(MYSQLI_BOTH)){
-            echo $row[1]. "  ".$row[2]. "<br>"; 
+            echo $row[1]. "  ". "<br>"; 
         }
         $result->close();
     }
     ?>
-    <article>
-      <h1>ENERGY DRANK</h1>
-      <h2>Vitality Boost</h2>
-    </article>
-    <img id="orange-can" src="./images/orange-flavor.png" alt="blikje">
-  </main>
-  <section class="second-nav">
-    <li><a href="#">komende events</a></li>
-    <li><a href="#">event details</a></li>
-    <li><a href="#">artiesten details</a></li>
-    <li><a href="#">aanbiedingen</a></li>
+    </section>
+    <section class="evenementen">
+      <h3>Komende evenementen</h3>
+    <?php
+    $evenementen = "SELECT * FROM evenementen ORDER BY datum LIMIT 3";
+    if ($result = $conn->query($evenementen)){
+        while($row = $result->fetch_array(MYSQLI_BOTH)){
+            echo $row[1]. "  ". "<br>"; 
+        }
+        $result->close();
+    }
+    ?>
+  </section>
+  <section class="aanbiedingen">
+      <h3>Komende aanbiedingen</h3>
+    <?php
+    $aanbiedingen = "SELECT titel FROM aanbiedingen ORDER BY begindatum LIMIT 3";
+    if ($result = $conn->query($aanbiedingen)){
+        while($row = $result->fetch_array(MYSQLI_BOTH)){
+            echo $row[0]. "  ". "<br>"; 
+        }
+        $result->close();
+    }
+    ?>
   </section>
   <p class="copyright">© 2021 Vitality Energy. All rights reserved</p>
   <footer>
     <img id="pink-line" src="./images/pink-line.png" alt="pink-line">
-    <img class="mobile-background" src="./images/mobile-achtergrond.png" alt="">
-    <img class="background" src="./images/achtergrond.png" alt="">
+    <img class="mobile-background" src="./images/mobile-achtergrond.png" alt="mobile-background">
+    <img class="background" src="./images/achtergrond.png" alt="bigscreen-background">
   </footer>
 </body>
 

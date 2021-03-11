@@ -22,7 +22,7 @@
                 <li><a href="homepage.php">Homepage</a></li>
                 <li><a href="Evenementen-overzicht.php">Events</a></li>
                 <li><a href="artiesten-overzicht.php">Artiesten</a></li>
-                <li><a href="producten.html">Producten</a></li>
+                <li><a href="producten.php">Producten</a></li>
                 <li><a href="aanbiedingen-overzicht.php">Aanbiedingen</a></li>
                 <li><a href="faq.php">FAQ</a></li>
                 <li><a href="contact.php">Contact</a></li>
@@ -35,7 +35,7 @@
                 <li><a href="homepage.php">Homepage</a></li>
                 <li><a href="Evenementen-overzicht.php">Events</a></li>
                 <li><a href="artiesten-overzicht.php">Artiesten</a></li>
-                <li><a href="producten.html">Producten</a></li>
+                <li><a href="producten.php">Producten</a></li>
                 <li><a href="aanbiedingen-overzicht.php">Aanbiedingen</a></li>
                 <li><a href="faq.php">FAQ</a></li>
                 <li><a href="contact.php">Contact</a></li>
