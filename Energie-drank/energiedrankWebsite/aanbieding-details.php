@@ -45,9 +45,7 @@
     <section class="title-image-container">
         <h1>Knal korting</h1>
     </section>
-    <section class="title-image-container2">
-        <h1>Back</h1>
-    </section>
+  
 
 
 

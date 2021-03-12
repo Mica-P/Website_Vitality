@@ -68,7 +68,7 @@
     ?>
 </article>
 <section class="link-box">
-    <a class="link1" href="aanbieding-details1.php">Klik hier</a>
+    <a class="link1" href="aanbieding-details.php">Klik hier</a>
     <a class="link2" href="aanbieding-details.php">Klik hier</a>
     <a class="link3" href="aanbieding-details.php">Klik hier</a>
 </section>
