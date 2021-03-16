@@ -167,7 +167,8 @@
     width: 100vw;
     font-size: 2.5rem;
 }
-.aanbiedingen a {    color: white;}
+.aanbiedingen a {color: white;}
+.aanbiedingen a:hover {color: #FBD889;}
 
 
 
