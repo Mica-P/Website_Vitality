@@ -54,48 +54,48 @@
   </main>
   <section class="artiesten">
     <h3>Komede artiesten</h3>
-      <?php
+    <?php
     //stap 1
     $servername = "localhost";
     $username = "root";
     $password = "";
     $database = "energy";
     $conn = new mysqli($servername, $username, $password, $database);
-    if ($conn->connect_error){
-        die("Connection failed ". $conn-connect_error);
+    if ($conn->connect_error) {
+      die("Connection failed " . $conn->connect_error);
     }
     $artiesten = "SELECT * FROM artiesten LIMIT 3";
-    if ($result = $conn->query($artiesten)){
-        while($row = $result->fetch_array(MYSQLI_BOTH)){
-            echo $row[1]. "  ". "<br>"; 
-        }
-        $result->close();
+    if ($result = $conn->query($artiesten)) {
+      while ($row = $result->fetch_array(MYSQLI_BOTH)) {
+        echo $row[1] . "  " . "<br>";
+      }
+      $result->close();
     }
     ?>
-    </section>
-    <section class="evenementen">
-      <h3>Komende evenementen</h3>
+  </section>
+  <section class="evenementen">
+    <h3>Komende evenementen</h3>
     <?php
     $evenementen = "SELECT * FROM evenementen ORDER BY datum LIMIT 3";
-    if ($result = $conn->query($evenementen)){
-        while($row = $result->fetch_array(MYSQLI_BOTH)){
-            echo $row[1]. "  ". "<br>"; 
-        }
-        $result->close();
+    if ($result = $conn->query($evenementen)) {
+      while ($row = $result->fetch_array(MYSQLI_BOTH)) {
+        echo $row[1] . "  " . "<br>";
+      }
+      $result->close();
     }
     ?>
   </section>
   <section class="aanbiedingen">
     <a href="aanbiedingen-overzicht.php">
       <h3>Komende aanbiedingen</h3>
-      </a>
+    </a>
     <?php
     $aanbiedingen = "SELECT titel FROM aanbiedingen ORDER BY begindatum LIMIT 3";
-    if ($result = $conn->query($aanbiedingen)){
-        while($row = $result->fetch_array(MYSQLI_BOTH)){
-            echo $row[0]. "  ". "<br>"; 
-        }
-        $result->close();
+    if ($result = $conn->query($aanbiedingen)) {
+      while ($row = $result->fetch_array(MYSQLI_BOTH)) {
+        echo $row[0] . "  " . "<br>";
+      }
+      $result->close();
     }
     ?>
   </section>
