@@ -46,6 +46,9 @@
     <h1>Artiesten overzicht</h1>
   </section>
 
+  <div class= "blokje">
+</div>
+
 
 
 
