@@ -47,7 +47,7 @@
         <h1>Evenementen overzicht</h1>
     </section>
 
-<h1>kaas</h1>
+
 
 
 
