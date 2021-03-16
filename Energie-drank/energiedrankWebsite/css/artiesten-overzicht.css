@@ -114,6 +114,16 @@
     background-color: purple;
   }
 
+  .blokje2 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin-top: 25vh;
+    margin-left: 10vh;
+    z-index: 99;
+    background-color: purple;
+  }
+
   .bigscreen-nav a:hover {color: #F38581;}
 /*Niet boven coderen! Beneden hier en Gebruik [ position: absolute ] als je bijv: h1 toevoegt*/
 
