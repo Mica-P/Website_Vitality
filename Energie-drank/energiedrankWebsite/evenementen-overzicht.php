@@ -48,7 +48,15 @@
     </section>
 
 
-  
+    <article>
+    <h1>Komende evenementen</h1>
+    <p>Deze evenementen komen </p>
+    </article>
+
+    <article>
+    <h1>Details van evenementen</h1>
+    <p>Dit zijn de details</p>
+    </article>
 
 
 
