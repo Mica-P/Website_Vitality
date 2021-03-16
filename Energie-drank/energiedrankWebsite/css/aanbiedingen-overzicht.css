@@ -160,11 +160,14 @@
 }
 .aanbiedingen {
     position: absolute;
-    margin-top: 85vh;
+    margin-top: 75vh;
     font-size: 2rem;
     font-family: 'Montserrat', sans-serif;
-    color: white;
+    text-align: center;
+    width: 100vw;
+    font-size: 2.5rem;
 }
+.aanbiedingen a {    color: white;}
 
 
 
