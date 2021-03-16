@@ -48,7 +48,7 @@
     </section>
 
 
-    <article>
+    <article class="komendeevenementen">
     <h1>Komende evenementen</h1>
     <p>Deze evenementen komen </p>
     </article>
