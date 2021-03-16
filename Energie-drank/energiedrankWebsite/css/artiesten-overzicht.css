@@ -108,9 +108,10 @@
     width: 100px;
     height: 100px;
     position: absolute;
-    margin-top: 20vh;
+    margin-top: 25vh;
+    margin-left: 10vh;
     z-index: 99;
-    background-color: blue;
+    background-color: red;
   }
 
   .bigscreen-nav a:hover {color: #F38581;}
