@@ -62,7 +62,7 @@
         $aanbiedingen = "SELECT * FROM aanbiedingen ORDER BY begindatum LIMIT 3";
         if ($result = $conn->query($aanbiedingen)) {
             while ($row = $result->fetch_array(MYSQLI_BOTH)) {
-                echo "<a href='aanbieding-details.php?id=" . $row[0] . "'>" . $row[1] . "</a>" . "<br>";
+                echo "<a  href='aanbieding-details.php?id=" . $row[0] . "'>" . $row[1] . "</a>" . "<br>";
             }
             $result->close();
         }
