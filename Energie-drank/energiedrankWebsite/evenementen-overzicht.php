@@ -53,7 +53,7 @@
     <p>Deze evenementen komen </p>
     </article>
 
-    <article>
+    <article class="komendeevenementen">
     <h1>Details van evenementen</h1>
     <p>Dit zijn de details van de evenementen</p>
     <p>De evenementen vinden plaats op ---- en ---- </p>
