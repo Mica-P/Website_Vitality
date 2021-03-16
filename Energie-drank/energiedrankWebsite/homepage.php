@@ -10,6 +10,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Homepage - Vitality</title>
   <link rel="stylesheet" type="text/css" href="./css/homepage.css">
+  <link rel="shortcut icon" href="images/mini-logo.gif">
 </head>
 </head>
 
