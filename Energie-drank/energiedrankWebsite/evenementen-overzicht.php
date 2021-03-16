@@ -55,7 +55,7 @@
 
     <article>
     <h1>Details van evenementen</h1>
-    <p>Dit zijn de details</p>
+    <p>Dit zijn de details van de evenementen</p>
     </article>
 
 
