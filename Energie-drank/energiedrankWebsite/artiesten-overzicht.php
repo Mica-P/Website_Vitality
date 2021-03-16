@@ -47,6 +47,7 @@
   </section>
 
   <div class= "blokje">
+    <p>test</p>
 </div>
 
 
