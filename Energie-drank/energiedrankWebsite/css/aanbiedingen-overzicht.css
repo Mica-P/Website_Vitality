@@ -39,6 +39,7 @@
    details {
        position: absolute;
        margin-top: 0vh;
+       height: 0%;
        width: 100%;
        z-index: 1;
     }
