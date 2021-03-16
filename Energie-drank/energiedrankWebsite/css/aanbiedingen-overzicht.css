@@ -79,39 +79,21 @@
         left: 20vw;
         height: 20vh;
     }
-    article {
-        position: absolute;
-        margin-top: 65vh;
-        font-size: 2rem;
-        font-family: 'Montserrat', sans-serif;
-        color: white;
-    }
+   
     .aanbiedingen {
         position: absolute;
-        display: flex;
-        flex-direction: column;
-        top: -15vh;
-        line-height: 10vh;
-        margin-left: 10vw;
-        font-size:1rem;
-        word-spacing: 5vw;
-        text-align: center;
-    }
-    .link-box {
-        position: absolute;
-        top: 56vh;
-        left: 18vw;
-        font-size: 1rem;
+        margin-top: 55vh;
+        font-size: 2rem;
         font-family: 'Montserrat', sans-serif;
-        color: white;
-        line-height: 8vh;
+        text-align: center;
+        width: 100vw; 
+      
     }
+    .aanbiedingen a {color: white;}
+    .aanbiedingen a:hover {color: #FBD889;}
     
-    .link2 {margin-left: 25vw;}
-    .link3 {
-
-        margin-left: 25vw;
-    }
+    
+    
 }
 /*Big screen and tablet landscape screen*/
 @media screen and (min-width: 769px){
