@@ -50,7 +50,9 @@
     <p>test</p>
 </div>
 
-
+<div class= "blokje2">
+    <p>test</p>
+</div>
 
 
 
