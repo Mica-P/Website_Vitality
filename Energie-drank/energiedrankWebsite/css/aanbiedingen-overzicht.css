@@ -158,31 +158,13 @@
     left: 30vw;
     height: 50vh;
 }
-article {
+.aanbiedingen {
     position: absolute;
-    margin-top: 65vh;
+    margin-top: 85vh;
     font-size: 2rem;
     font-family: 'Montserrat', sans-serif;
     color: white;
 }
-.aanbiedingen {
-    display: flex;
-    flex-direction: row;
-    top: 10vh;
-    margin-left: 15vw;
-    word-spacing: 5vw;
-}
-.link-box {
-    position: absolute;
-    top: 85vh;
-    left: 18vw;
-    font-size: 1.5rem;
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-}
-
-.link2 {margin-left: 15vw;}
-.link3 {margin-left: 25vw;}
 
 
 
