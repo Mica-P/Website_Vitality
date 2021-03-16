@@ -103,6 +103,15 @@
     color: white;
     padding: 40px;
   }
+
+  .blokje {
+    width: 100px;
+    height: 10px;
+    position: absolute;
+    margin-top: 10vh;
+    z-index: 1;
+  }
+
   .bigscreen-nav a:hover {color: #F38581;}
 /*Niet boven coderen! Beneden hier en Gebruik [ position: absolute ] als je bijv: h1 toevoegt*/
 
