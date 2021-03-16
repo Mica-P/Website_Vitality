@@ -9,6 +9,7 @@
     <meta name="author" content="Mica Paulo, Sijme Heemskerk, Mike van Duyvenbode, Dinand Dummer">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="./css/aanbiedingen-overzicht.css">
+    <link rel="shortcut icon" href="images/mini-logo.gif">
     <title>Aanbiedingen overzicht</title>
 </head>
 
@@ -61,7 +62,7 @@
         $aanbiedingen = "SELECT * FROM aanbiedingen ORDER BY begindatum LIMIT 3";
         if ($result = $conn->query($aanbiedingen)) {
             while ($row = $result->fetch_array(MYSQLI_BOTH)) {
-                echo "<a href='aanbieding-details.php?id=" . $row[0] . "'>" . $row[1] . "</a>";
+                echo "<a href='aanbieding-details.php?id=" . $row[0] . "'>" . $row[1] . "</a>" . "<br>";
             }
             $result->close();
         }

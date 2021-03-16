@@ -8,6 +8,7 @@
   <meta name="keywords" content="Vitality, energiedrank, website">
   <meta name="author" content="Mica Paulo, Sijme Heemskerk, Mike van Duyvenbode, Dinand Dummer">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="images/mini-logo.gif">
   <title></title>
   <link rel="stylesheet" type="text/css" href=".css">
 
