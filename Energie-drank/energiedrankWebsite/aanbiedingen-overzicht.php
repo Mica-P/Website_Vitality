@@ -32,46 +32,46 @@
     </details>
     <nav class="bigscreen-nav">
         <ul>
-                <li><a href="homepage.php">Homepage</a></li>
-                <li><a href="Evenementen-overzicht.php">Events</a></li>
-                <li><a href="artiesten-overzicht.php">Artiesten</a></li>
-                <li><a href="producten.php">Producten</a></li>
-                <li><a href="aanbiedingen-overzicht.php">Aanbiedingen</a></li>
-                <li><a href="faq.php">FAQ</a></li>
-                <li><a href="contact.php">Contact</a></li>
-                <li><a href="overons.php">Over Ons</a></li>
+            <li><a href="homepage.php">Homepage</a></li>
+            <li><a href="Evenementen-overzicht.php">Events</a></li>
+            <li><a href="artiesten-overzicht.php">Artiesten</a></li>
+            <li><a href="producten.php">Producten</a></li>
+            <li><a href="aanbiedingen-overzicht.php">Aanbiedingen</a></li>
+            <li><a href="faq.php">FAQ</a></li>
+            <li><a href="contact.php">Contact</a></li>
+            <li><a href="overons.php">Over Ons</a></li>
         </ul>
     </nav>
     <section class="title-image-container">
         <h1>Komende aanbiedingen</h1>
         <img class="sale-img" src="./images/sale.jpg" alt="image sale">
     </section>
-   
+
     <article class="aanbiedingen">
-    <?php
-    //stap 1
-    $servername = "localhost";
-    $username = "root";
-    $password = "";
-    $database = "energy";
-    $conn = new mysqli($servername, $username, $password, $database);
-    if ($conn->connect_error){
-        die("Connection failed ". $conn-connect_error);
-    }
-    $aanbiedingen = "SELECT * FROM aanbiedingen ORDER BY begindatum LIMIT 3";
-    if ($result = $conn->query($aanbiedingen)){
-        while($row = $result->fetch_array(MYSQLI_BOTH)){
-            echo " ".$row[1]." "; 
+        <?php
+        //stap 1
+        $servername = "localhost";
+        $username = "root";
+        $password = "";
+        $database = "energy";
+        $conn = new mysqli($servername, $username, $password, $database);
+        if ($conn->connect_error) {
+            die("Connection failed " . $conn->connect_error);
         }
-        $result->close();
-    }
-    ?>
-</article>
-<section class="link-box">
-    <a class="link1" href="aanbieding-details.php">Klik hier</a>
-    <a class="link2" href="aanbieding-details.php">Klik hier</a>
-    <a class="link3" href="aanbieding-details.php">Klik hier</a>
-</section>
+        $aanbiedingen = "SELECT * FROM aanbiedingen ORDER BY begindatum LIMIT 3";
+        if ($result = $conn->query($aanbiedingen)) {
+            while ($row = $result->fetch_array(MYSQLI_BOTH)) {
+                echo "<a href='aanbieding-details.php?id=" . $row[0] . "'>" . $row[1] . "</a>";
+            }
+            $result->close();
+        }
+        ?>
+    </article>
+    <section class="link-box">
+        <a class="link1" href="aanbieding-details.php">Klik hier</a>
+        <a class="link2" href="aanbieding-details.php">Klik hier</a>
+        <a class="link3" href="aanbieding-details.php">Klik hier</a>
+    </section>
 
 
 

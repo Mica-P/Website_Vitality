@@ -11,6 +11,17 @@
     <link rel="stylesheet" type="text/css" href="./css/aanbieding-details.css">
     <title>Aanbiedingen details1</title>
 </head>
+<?php
+//stap 1
+$servername = "localhost";
+$username = "root";
+$password = "";
+$database = "energy";
+$conn = new mysqli($servername, $username, $password, $database);
+if ($conn->connect_error) {
+    die("Connection failed " . $conn->connect_error);
+}
+?>
 
 <body>
     <header><img class=" logo" class="logo" src="./images/mini-logo.gif" alt="logo">
@@ -32,25 +43,31 @@
     </details>
     <nav class="bigscreen-nav">
         <ul>
-                <li><a href="homepage.php">Homepage</a></li>
-                <li><a href="Evenementen-overzicht.php">Events</a></li>
-                <li><a href="artiesten-overzicht.php">Artiesten</a></li>
-                <li><a href="producten.php">Producten</a></li>
-                <li><a href="aanbiedingen-overzicht.php">Aanbiedingen</a></li>
-                <li><a href="faq.php">FAQ</a></li>
-                <li><a href="contact.php">Contact</a></li>
-                <li><a href="overons.php">Over Ons</a></li>
+            <li><a href="homepage.php">Homepage</a></li>
+            <li><a href="Evenementen-overzicht.php">Events</a></li>
+            <li><a href="artiesten-overzicht.php">Artiesten</a></li>
+            <li><a href="producten.php">Producten</a></li>
+            <li><a href="aanbiedingen-overzicht.php">Aanbiedingen</a></li>
+            <li><a href="faq.php">FAQ</a></li>
+            <li><a href="contact.php">Contact</a></li>
+            <li><a href="overons.php">Over Ons</a></li>
         </ul>
     </nav>
     <section class="title-image-container">
-        <h1>Knal korting</h1>
+        <h1>
+
+
+            <?php
+            $aanbiedingen = "SELECT * FROM aanbiedingen WHERE aanbiedingen_id = " . $_GET['id'];
+            if ($result = $conn->query($aanbiedingen)) {
+                while ($row = $result->fetch_array(MYSQLI_BOTH)) {
+                    echo $row[0]  . $row[1];
+                }
+                $result->close();
+            }
+            ?>
+        </h1>
     </section>
-  
-
-
-
-
-
 
 
 
