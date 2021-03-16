@@ -106,9 +106,9 @@
 
   .blokje {
     width: 100px;
-    height: 10px;
+    height: 100px;
     position: absolute;
-    margin-top: 10vh;
+    margin-top: 20vh;
     z-index: 1;
   }
 
