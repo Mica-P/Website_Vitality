@@ -9,6 +9,7 @@
     <meta name="author" content="Mica Paulo, Sijme Heemskerk, Mike van Duyvenbode, Dinand Dummer">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="./css/aanbiedingen-overzicht.css">
+    <link rel="shortcut icon" href="images/mini-logo.gif">
     <title>Aanbiedingen overzicht</title>
 </head>
 
