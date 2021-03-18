@@ -60,10 +60,14 @@
 
     .title-image-container  h1{
         position: absolute;
+        display: flex;
         margin-top: 17vh;
-        margin-left: 10vw;
+        width: 100vw;
+        height: 70vw;
+        justify-content: center;
         font-family: 'Montserrat', sans-serif;
         color: white;
+        font-size: 1rem;
     }
     .copyright{
         position: absolute;
@@ -75,19 +79,23 @@
     }
     .sale-img {
         position: absolute;
-        top: 23vh;
-        left: 20vw;
-        height: 20vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 70vh;
     }
+    .sale-img img {height: 20vh;}
    
     .aanbiedingen {
         position: absolute;
-        margin-top: 55vh;
-        font-size: 2rem;
         font-family: 'Montserrat', sans-serif;
-        text-align: center;
         width: 100vw; 
-      
+        text-align: center;
+        margin-top: 50vh;
+        height: 40vh;
+        font-size: 1.5rem;
+        line-height: 10vh;
     }
     .aanbiedingen a {color: white;}
     .aanbiedingen a:hover {color: #FBD889;}
@@ -134,12 +142,7 @@
     height: 50vh;
     width: 100vw;
 }
-.sale-img {
-    position: absolute;
-    top: 18vh;
-    left: 30vw;
-    height: 50vh;
-}
+
 .aanbiedingen {
     position: absolute;
     margin-top: 75vh;
@@ -152,7 +155,15 @@
 .aanbiedingen a {color: white;}
 .aanbiedingen a:hover {color: #FBD889;}
 
-
+.sale-img {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 90vh;
+}
+.sale-img img {height: 50vh;}
 
 
 

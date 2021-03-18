@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="./css/aanbieding-details.css">
     <link rel="shortcut icon" href="images/mini-logo.gif">
-    
+
     <title>Aanbiedingen details1</title>
 </head>
 <?php
@@ -57,13 +57,11 @@ if ($conn->connect_error) {
     </nav>
     <section class="title-image-container">
         <h1>
-
-
             <?php
             $aanbiedingen = "SELECT * FROM aanbiedingen WHERE aanbiedingen_id = " . $_GET['id'];
             if ($result = $conn->query($aanbiedingen)) {
                 while ($row = $result->fetch_array(MYSQLI_BOTH)) {
-                    echo $row[0]  . $row[1];
+                    echo  " " . $row[1];
                 }
                 $result->close();
             }
