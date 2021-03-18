@@ -61,12 +61,25 @@ if ($conn->connect_error) {
             $aanbiedingen = "SELECT * FROM aanbiedingen WHERE aanbiedingen_id = " . $_GET['id'];
             if ($result = $conn->query($aanbiedingen)) {
                 while ($row = $result->fetch_array(MYSQLI_BOTH)) {
-                    echo  " " . $row[1];
+                    echo $row[1];
                 }
                 $result->close();
             }
             ?>
         </h1>
+    </section>
+    <section class="title-image-container aanbieding-details">
+        <p>
+            <?php
+            $aanbiedingen = "SELECT * FROM aanbiedingen WHERE aanbiedingen_id = " . $_GET['id'];
+            if ($result = $conn->query($aanbiedingen)) {
+                while ($row = $result->fetch_array(MYSQLI_BOTH)) {
+                    echo $row['afbeelding'] . "<br>" . $row['titel'] . "<br>" . $row['begindatum'] . "<br>" . $row['omschrijving'];
+                }
+                $result->close();
+            }
+            ?>
+        </p>
     </section>
 
 
