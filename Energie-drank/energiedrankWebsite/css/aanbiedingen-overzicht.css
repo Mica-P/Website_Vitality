@@ -106,64 +106,64 @@
 /*Big screen and tablet landscape screen*/
 @media screen and (min-width: 769px){
    .mobile-nav, .mobile-background, summary, .copyright{display: none;}
-   .logo {
-       position: absolute;
-       height: 100px;
-   }
-   .bigscreen-nav {
-       position: absolute;
+    .logo {
+        position: absolute;
+        height: 100px;
+    }
+    .bigscreen-nav {
+        position: absolute;
         display: flex;
         justify-content: center;
         align-content: space-around;
         width: 100vw;
         z-index: 1;
         margin-top: 3vh;
-   }
-   .bigscreen-nav li{
-    display: inline;
-    font-size: 1.2rem;
-    font-family: 'Montserrat', sans-serif;
-   }
-  .bigscreen-nav a {
-    color: white;
-    padding: 40px;
-  }
-  .bigscreen-nav a:hover {color: #F38581;}
+    }
+    .bigscreen-nav li{
+        display: inline;
+        font-size: 1.2rem;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .bigscreen-nav a {
+        color: white;
+        padding: 40px;
+     }
+    .bigscreen-nav a:hover {color: #F38581;}
 /*Niet boven coderen! Beneden hier en Gebruik [ position: absolute ] als je bijv: h1 toevoegt*/
 
-.title-image-container h1 {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    margin-top: 10vh;
-    font-size: 2rem;
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    height: 50vh;
-    width: 100vw;
+    .title-image-container h1 {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        margin-top: 10vh;
+        font-size: 2rem;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        height: 50vh;
+        width: 100vw;
 }
 
-.aanbiedingen {
-    position: absolute;
-    margin-top: 75vh;
-    font-size: 2rem;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    width: 100vw;
-    font-size: 2.5rem;
+    .aanbiedingen {
+        position: absolute;
+        margin-top: 75vh;
+        font-size: 2rem;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        width: 100vw;
+        font-size: 2.5rem;
 }
-.aanbiedingen a {color: white;}
-.aanbiedingen a:hover {color: #FBD889;}
-
-.sale-img {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 90vh;
-}
-.sale-img img {height: 50vh;}
+    .aanbiedingen a {color: white;}
+    .aanbiedingen a:hover {color: #FBD889;}
+    
+    .sale-img {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 90vh;
+    }
+    .sale-img img {height: 50vh;}
 
 
 

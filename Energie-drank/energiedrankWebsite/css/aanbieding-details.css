@@ -99,7 +99,7 @@
        height: 100px;
    }
    .bigscreen-nav {
-       position: absolute;
+        position: absolute;
         display: flex;
         justify-content: center;
         align-content: space-around;
@@ -108,39 +108,39 @@
         margin-top: 3vh;
    }
    .bigscreen-nav li{
-    display: inline;
-    font-size: 1.2rem;
-    font-family: 'Montserrat', sans-serif;
+        display: inline;
+        font-size: 1.2rem;
+        font-family: 'Montserrat', sans-serif;
    }
   .bigscreen-nav a {
-    color: white;
-    padding: 40px;
+        color: white;
+        padding: 40px;
   }
   .bigscreen-nav a:hover {color: #F38581;}
 /*Niet boven coderen! Beneden hier en Gebruik [ position: absolute ] als je bijv: h1 toevoegt*/
 
-.title-image-container h1 {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    margin-top: 10vh;
-    font-size: 2rem;
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    height: 50vh;
-    width: 100vw;
+    .title-image-container h1 {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        margin-top: 10vh;
+        font-size: 2rem;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        height: 50vh;
+        width: 100vw;
 }
-.aanbieding-details {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30vh;
-    width: 100vw;
-    height: 50vw;
-    text-align: center;
-    font-size: 2rem;
-    font-family: 'Roboto Condensed', sans-serif;
+    .aanbieding-details {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30vh;
+        width: 100vw;
+        height: 50vw;
+        text-align: center;
+        font-size: 2rem;
+        font-family: 'Roboto Condensed', sans-serif;
 }
 
 
