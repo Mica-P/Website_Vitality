@@ -60,10 +60,14 @@
 
     .title-image-container  h1{
         position: absolute;
+        display: flex;
         margin-top: 17vh;
-        margin-left: 10vw;
+        width: 100vw;
+        height: 70vw;
+        justify-content: center;
         font-family: 'Montserrat', sans-serif;
         color: white;
+        font-size: 1rem;
     }
     .copyright{
         position: absolute;
@@ -75,19 +79,23 @@
     }
     .sale-img {
         position: absolute;
-        top: 23vh;
-        left: 20vw;
-        height: 20vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 70vh;
     }
+    .sale-img img {height: 20vh;}
    
     .aanbiedingen {
         position: absolute;
-        margin-top: 55vh;
-        font-size: 2rem;
         font-family: 'Montserrat', sans-serif;
-        text-align: center;
         width: 100vw; 
-      
+        text-align: center;
+        margin-top: 50vh;
+        height: 40vh;
+        font-size: 1.5rem;
+        line-height: 10vh;
     }
     .aanbiedingen a {color: white;}
     .aanbiedingen a:hover {color: #FBD889;}
@@ -98,61 +106,64 @@
 /*Big screen and tablet landscape screen*/
 @media screen and (min-width: 769px){
    .mobile-nav, .mobile-background, summary, .copyright{display: none;}
-   .logo {
-       position: absolute;
-       height: 100px;
-   }
-   .bigscreen-nav {
-       position: absolute;
+    .logo {
+        position: absolute;
+        height: 100px;
+    }
+    .bigscreen-nav {
+        position: absolute;
         display: flex;
         justify-content: center;
         align-content: space-around;
         width: 100vw;
         z-index: 1;
         margin-top: 3vh;
-   }
-   .bigscreen-nav li{
-    display: inline;
-    font-size: 1.2rem;
-    font-family: 'Montserrat', sans-serif;
-   }
-  .bigscreen-nav a {
-    color: white;
-    padding: 40px;
-  }
-  .bigscreen-nav a:hover {color: #F38581;}
+    }
+    .bigscreen-nav li{
+        display: inline;
+        font-size: 1.2rem;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .bigscreen-nav a {
+        color: white;
+        padding: 40px;
+     }
+    .bigscreen-nav a:hover {color: #F38581;}
 /*Niet boven coderen! Beneden hier en Gebruik [ position: absolute ] als je bijv: h1 toevoegt*/
 
-.title-image-container h1 {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    margin-top: 10vh;
-    font-size: 2rem;
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    height: 50vh;
-    width: 100vw;
+    .title-image-container h1 {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        margin-top: 10vh;
+        font-size: 2rem;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        height: 50vh;
+        width: 100vw;
 }
-.sale-img {
-    position: absolute;
-    top: 18vh;
-    left: 30vw;
-    height: 50vh;
-}
-.aanbiedingen {
-    position: absolute;
-    margin-top: 75vh;
-    font-size: 2rem;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    width: 100vw;
-    font-size: 2.5rem;
-}
-.aanbiedingen a {color: white;}
-.aanbiedingen a:hover {color: #FBD889;}
 
-
+    .aanbiedingen {
+        position: absolute;
+        margin-top: 75vh;
+        font-size: 2rem;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        width: 100vw;
+        font-size: 2.5rem;
+}
+    .aanbiedingen a {color: white;}
+    .aanbiedingen a:hover {color: #FBD889;}
+    
+    .sale-img {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 90vh;
+    }
+    .sale-img img {height: 50vh;}
 
 
 

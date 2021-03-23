@@ -45,7 +45,9 @@
     </nav>
     <section class="title-image-container">
         <h1>Komende aanbiedingen</h1>
-        <img class="sale-img" src="./images/sale.jpg" alt="image sale">
+        <section class="sale-img">
+            <img src="./images/sale.jpg" alt="image sale">
+        </section>
     </section>
 
     <article class="aanbiedingen">

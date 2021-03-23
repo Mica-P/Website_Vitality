@@ -1,6 +1,7 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -60,8 +61,11 @@
 
     .title-image-container  h1{
         position: absolute;
-        margin-top: 17vh;
-        margin-left: 20vw;
+        display: flex;
+        width: 100vw;
+        height: 70vw;
+        justify-content: center;
+        align-items: center;
         font-family: 'Montserrat', sans-serif;
         color: white;
     }
@@ -73,6 +77,18 @@
         font-size: .8rem;
         color: #F38581;
     }
+    .aanbieding-details {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40vh;
+        width: 100vw;
+        height: 50vw;
+        text-align: center;
+        font-size: 1.7rem;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
    
 }
 /*Big screen and tablet landscape screen*/
@@ -83,7 +99,7 @@
        height: 100px;
    }
    .bigscreen-nav {
-       position: absolute;
+        position: absolute;
         display: flex;
         justify-content: center;
         align-content: space-around;
@@ -92,27 +108,39 @@
         margin-top: 3vh;
    }
    .bigscreen-nav li{
-    display: inline;
-    font-size: 1.2rem;
-    font-family: 'Montserrat', sans-serif;
+        display: inline;
+        font-size: 1.2rem;
+        font-family: 'Montserrat', sans-serif;
    }
   .bigscreen-nav a {
-    color: white;
-    padding: 40px;
+        color: white;
+        padding: 40px;
   }
   .bigscreen-nav a:hover {color: #F38581;}
 /*Niet boven coderen! Beneden hier en Gebruik [ position: absolute ] als je bijv: h1 toevoegt*/
 
-.title-image-container h1 {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    margin-top: 10vh;
-    font-size: 2rem;
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    height: 50vh;
-    width: 100vw;
+    .title-image-container h1 {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        margin-top: 10vh;
+        font-size: 2rem;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        height: 50vh;
+        width: 100vw;
+}
+    .aanbieding-details {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30vh;
+        width: 100vw;
+        height: 50vw;
+        text-align: center;
+        font-size: 2rem;
+        font-family: 'Roboto Condensed', sans-serif;
 }
 
 

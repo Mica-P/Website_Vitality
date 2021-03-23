@@ -33,14 +33,14 @@
     </details>
     <nav class="bigscreen-nav">
         <ul>
-                <li><a href="homepage.php">Homepage</a></li>
-                <li><a href="Evenementen-overzicht.php">Events</a></li>
-                <li><a href="artiesten-overzicht.php">Artiesten</a></li>
-                <li><a href="producten.php">Producten</a></li>
-                <li><a href="aanbiedingen-overzicht.php">Aanbiedingen</a></li>
-                <li><a href="faq.php">FAQ</a></li>
-                <li><a href="contact.php">Contact</a></li>
-                <li><a href="overons.php">Over Ons</a></li>
+            <li><a href="homepage.php">Homepage</a></li>
+            <li><a href="Evenementen-overzicht.php">Events</a></li>
+            <li><a href="artiesten-overzicht.php">Artiesten</a></li>
+            <li><a href="producten.php">Producten</a></li>
+            <li><a href="aanbiedingen-overzicht.php">Aanbiedingen</a></li>
+            <li><a href="faq.php">FAQ</a></li>
+            <li><a href="contact.php">Contact</a></li>
+            <li><a href="overons.php">Over Ons</a></li>
         </ul>
     </nav>
     <section class="title-image-container">
@@ -49,8 +49,8 @@
 
 
     <article class="komendeevenementen">
-    <h1>Komende evenementen</h1>
-    <p>Deze evenementen komen </p>
+        <h1>Komende evenementen</h1>
+        <p>Deze evenementen komen </p>
     </article>
 
     <img src="" alt="">
@@ -60,10 +60,10 @@
 
 
     <article class="komendeevenementen">
-    <h1>Details van evenementen</h1>
-    <p>Dit zijn de details van de evenementen</p>
-    <p>De evenementen vinden plaats op ---- en ---- </p>
-    <p>De locatie is:</p>
+        <h1>Details van evenementen</h1>
+        <p>Dit zijn de details van de evenementen</p>
+        <p>De evenementen vinden plaats op ---- en ---- </p>
+        <p>De locatie is:</p>
     </article>
 
 

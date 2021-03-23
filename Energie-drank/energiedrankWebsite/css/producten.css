@@ -9,6 +9,7 @@
     box-sizing: border-box;
     overflow: hidden; /* Hide scrollbars */
 }
+body {background-color: #FBD889;}
 
 
 /*mobile */
@@ -117,10 +118,6 @@
     height: 50vh;
     width: 100vw;
 }
-
-
-
-
 
 
 
