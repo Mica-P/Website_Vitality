@@ -9,6 +9,7 @@
     box-sizing: border-box;
     overflow: hidden; /* Hide scrollbars */
 }
+body {background-color: #FBD889;}
 
 
 /*mobile */
@@ -105,12 +106,18 @@
   }
   .bigscreen-nav a:hover {color: #F38581;}
 /*Niet boven coderen! Beneden hier en Gebruik [ position: absolute ] als je bijv: h1 toevoegt*/
-title-image-container {
+
+.title-image-container h1 {
     position: absolute;
-    margin-top: 20vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    height: 50vh;
+    width: 100vw;
 }
-
-
 
 
 
