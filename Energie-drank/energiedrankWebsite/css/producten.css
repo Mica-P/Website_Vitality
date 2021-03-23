@@ -105,9 +105,9 @@
   }
   .bigscreen-nav a:hover {color: #F38581;}
 /*Niet boven coderen! Beneden hier en Gebruik [ position: absolute ] als je bijv: h1 toevoegt*/
-.title-image-container {
+title-image-container {
     position: absolute;
-    margin-top: 30vh;
+    margin-top: 20vh;
 }
 
 
