@@ -9,6 +9,7 @@
   <meta name="author" content="Mica Paulo, Sijme Heemskerk, Mike van Duyvenbode, Dinand Dummer">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="./css/producten.css">
+  <script src="producten.js"></script>
   <link rel="shortcut icon" href="images/mini-logo.gif">
   <title>producten</title>
 </head>
@@ -44,12 +45,14 @@
   </nav>
   <section class="title-image-container">
     <h1>Producten</h1>
-    <h2>p</h2>
   </section>
 
-
-
-
+  <section class="slideShow" style="margin-top:30vh; margin-left: 35vw;">
+    <div class="dice" style="width: 30vw; height:50vh; background-size: 100% 100%;">
+    </div>
+    <div class="nummers"></div>
+    <button class="rollDice" style="font-size: 1.5rem; margin-left:8vw; padding: 1vh; margin-top: 1vh;">Click SlideShow</button>
+  </section>
 
 
 

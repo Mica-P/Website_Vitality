@@ -107,7 +107,7 @@ body {background-color: #FBD889;}
   .bigscreen-nav a:hover {color: #F38581;}
 /*Niet boven coderen! Beneden hier en Gebruik [ position: absolute ] als je bijv: h1 toevoegt*/
 
-.title-image-container h1 {
+  .title-image-container h1,h2 {
     position: absolute;
     display: flex;
     justify-content: center;
@@ -117,12 +117,18 @@ body {background-color: #FBD889;}
     color: white;
     height: 50vh;
     width: 100vw;
+  }
+  .title-image-container h2 {
+      margin-top: 20vh;
+      font-size: 1.5rem;
+  }
+ .slideShow {
+     margin-top: 20vh;
+     position: absolute;
+ }
+ .info-box {
+   position: absolute;
+   margin-top: 20vh;
 }
-
-
-
-
-
 }
-
 
