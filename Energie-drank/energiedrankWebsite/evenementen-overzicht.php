@@ -53,6 +53,14 @@
         <p>Deze evenementen komen </p>
     </article>
 
+    <h1>Locaties</h1>
+<p>
+Den haag, voorburg, en leiden.
+</p>
+<h1>Artietsen</h1>
+<p>
+Elvis Presley, Justin Bieber, Miley cyrus
+</p>
     <img src="" alt="">
     <img src="" alt="">
     <img src="" alt="">
