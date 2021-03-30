@@ -128,5 +128,11 @@ body {
     margin-left: 15vw;
     background-repeat: no-repeat;
 }
+.info {
+    position: absolute;
+    height: 60vh;
+    margin-top: 20vh;
+    margin-left: 70vw;
+}
 }
   
