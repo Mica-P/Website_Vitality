@@ -82,14 +82,27 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 40vh;
+        margin-top: 25vh;
         width: 100vw;
-        height: 50vw;
+        height: 140vw;
         text-align: center;
         font-size: 1.7rem;
         font-family: 'Roboto Condensed', sans-serif;
+
     }
-   
+    .aanbiedingImage {
+        top: 10vh;
+    }
+    .aanbiedingImage img{
+        position: absolute;
+        margin-top: -30vh;
+        margin-left: 15vw;
+        width: 70vw;
+        height: 30vh;
+        margin-bottom: -10vh;
+    }
+    
+    
 }
 /*Big screen and tablet landscape screen*/
 @media screen and (min-width: 769px){
