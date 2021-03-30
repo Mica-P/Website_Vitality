@@ -44,12 +44,41 @@
         </ul>
     </nav>
     
+    <article class="evenementen">
+        <?php
+        //stap 1
+        $servername = "localhost";
+        $username = "root";
+        $password = "";
+        $database = "energy";
+        $conn = new mysqli($servername, $username, $password, $database);
+        if ($conn->connect_error) {
+            die("Connection failed " . $conn->connect_error);
+        }
+        $aanbiedingen = "SELECT * FROM evenementen ORDER BY begindatum LIMIT 3";
+        if ($result = $conn->query($evenementen)) {
+            while ($row = $result->fetch_array(MYSQLI_BOTH)) {
+                echo "<a  href='evenementen-details.php?id=" . $row[0] . "'>" . $row[1] . "</a>" . "<br>";
+            }
+            $result->close();
+        }
+        ?>
+    </article>
+
     <img src="images/eventdetails.jpg" alt="Evenement">
     <h1>Evenement details</h1>
 
+    <li>
 
+    </li>
 
+    <p>
 
+    </p>
+ 
+    <img src="" alt="">
+    <img src="" alt="">
+    <img src="" alt="">
 
     <!--Niet onder deze groep code zetten! Boven wel!-->
     <p class="copyright">© 2021 Vitality Energy. All rights reserved</p>
