@@ -9,7 +9,7 @@
     box-sizing: border-box;
     overflow: hidden; /* Hide scrollbars */
 }
-body {background-color: #FBD889;}
+
 
 
 /*mobile */
@@ -38,11 +38,7 @@ body {background-color: #FBD889;}
        color: white;
    }
    details {
-       position: absolute;
-       margin-top: 0vh;
-       height: 100%;
-       width: 100%;
-       z-index: 1;
+     display: none;
     }
     .mobile-nav {
         display: flex;
@@ -78,6 +74,7 @@ body {background-color: #FBD889;}
         font-size: .8rem;
         color: #F38581;
     }  
+    section .slideShow {display: none;}
 }
 /*Big screen and tablet landscape screen*/
 @media screen and (min-width: 769px){
