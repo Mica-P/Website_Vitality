@@ -43,36 +43,9 @@
             <li><a href="overons.php">Over Ons</a></li>
         </ul>
     </nav>
-    <section class="title-image-container">
-        <h1>Evenementen overzicht</h1>
-    </section>
-
-
-    <article class="komendeevenementen">
-        <h1>Komende evenementen</h1>
-        <p>Deze evenementen komen </p>
-    </article>
-
-    <h1>Locaties</h1>
-<p>
-Den haag, voorburg, en leiden.
-</p>
-<h1>Artietsen</h1>
-<p>
-Elvis Presley, Justin Bieber, Miley cyrus
-</p>
-    <img src="" alt="">
-    <img src="" alt="">
-    <img src="" alt="">
-
-
-
-    <article class="komendeevenementen">
-        <h1>Details van evenementen</h1>
-        <p>Dit zijn de details van de evenementen</p>
-        <p>De evenementen vinden plaats op ---- en ---- </p>
-        <p>De locatie is:</p>
-    </article>
+    
+    <img src="images/eventdetail.jpg" alt="Evenement">
+    <h1>Evenement details</h1>
 
 
 
