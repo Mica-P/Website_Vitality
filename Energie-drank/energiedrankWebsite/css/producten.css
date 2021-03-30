@@ -37,9 +37,6 @@
        font-size: 3rem;
        color: white;
    }
-   details {
-     display: none;
-    }
     .mobile-nav {
         display: flex;
         justify-content: center;
@@ -74,11 +71,11 @@
         font-size: .8rem;
         color: #F38581;
     }  
-    section .slideShow {display: none;}
+    second-text {display: none;}
 }
 /*Big screen and tablet landscape screen*/
 @media screen and (min-width: 769px){
-   .mobile-nav, .mobile-background, summary, .copyright{display: none;}
+   .mobile-nav, .mobile-background, summary, .copyright, second-text{display: none;}
    .logo {
        position: absolute;
        height: 100px;
@@ -127,5 +124,6 @@
    position: absolute;
    margin-top: 20vh;
 }
+mobile-slideshow {display: none;}
 }
 

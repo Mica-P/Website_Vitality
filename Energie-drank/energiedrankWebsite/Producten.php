@@ -47,11 +47,19 @@
     <h1>Producten</h1>
   </section>
 
-  <section class="slideShow" style="margin-top:30vh; margin-left: 35vw;">
+  <!--  <section class="slideShow" style="margin-top:30vh; margin-left: 35vw;">
     <div class="dice" style="width: 30vw; height:50vh; background-size: 100% 100%;">
     </div>
     <div class="nummers"></div>
     <button class="rollDice" style="font-size: 1.5rem; margin-left:8vw; padding: 1vh; margin-top: 1vh;">Click SlideShow</button>
+  </section> -->
+
+  <section class="mobile-slideshow">
+    <img src="./images//cherry.gif" style="height: 20vh" alt="">
+  </section>
+
+  <section class="second-text">
+    <p>Hello Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio qui dolorum aliquid, dolores aliquam ab quia quis harum nostrum officia!</p>
   </section>
 
 
