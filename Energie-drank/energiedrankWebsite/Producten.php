@@ -49,6 +49,9 @@
 
 
   <div id="images"></div>
+  <div>
+    <img class="info" src="./images/info.png" alt="">
+  </div>
 
 
 
