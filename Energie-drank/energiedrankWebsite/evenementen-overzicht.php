@@ -44,7 +44,7 @@
         </ul>
     </nav>
     
-    <img src="images/eventdetail.jpg" alt="Evenement">
+    <img src="images/eventdetails.jpg" alt="Evenement">
     <h1>Evenement details</h1>
 
 
