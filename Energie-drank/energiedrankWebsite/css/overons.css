@@ -9,6 +9,11 @@
     box-sizing: border-box;
     overflow: hidden; /* Hide scrollbars */
 }
+body {
+    background: rgb(251,213,137);
+    background: linear-gradient(180deg, rgba(251,213,137,1) 0%, rgba(243,133,129,1) 100%);
+    height: 100vh;
+}
 
 
 /*mobile */
