@@ -55,7 +55,7 @@
         if ($conn->connect_error) {
             die("Connection failed " . $conn->connect_error);
         }
-        $aanbiedingen = "SELECT * FROM evenementen ORDER BY begindatum LIMIT 3";
+        $evenementen = "SELECT * FROM evenementen ORDER BY begindatum LIMIT 3";
         if ($result = $conn->query($evenementen)) {
             while ($row = $result->fetch_array(MYSQLI_BOTH)) {
                 echo "<a  href='evenementen.php?id=" . $row[0] . "'>" . $row[1] . "</a>" . "<br>";
