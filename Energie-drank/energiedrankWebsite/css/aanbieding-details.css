@@ -142,7 +142,11 @@
         font-size: 2rem;
         font-family: 'Roboto Condensed', sans-serif;
 }
-
+.aanbiedingImage img{
+    position: absolute;
+    margin-top: -55vh;
+    height: 40vh;
+}
 
 
 

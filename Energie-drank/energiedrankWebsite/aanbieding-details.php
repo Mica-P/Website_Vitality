@@ -74,7 +74,10 @@ if ($conn->connect_error) {
             $aanbiedingen = "SELECT * FROM aanbiedingen WHERE aanbiedingen_id = " . $_GET['id'];
             if ($result = $conn->query($aanbiedingen)) {
                 while ($row = $result->fetch_array(MYSQLI_BOTH)) {
-                    echo $row['afbeelding'] . "<br>" . $row['titel'] . "<br>" . $row['begindatum'] . "<br>" . $row['omschrijving'];
+
+                    echo  '<section class="aanbiedingImage"><img src="./images/' . $row['afbeelding'] . '"></section>';
+
+                    echo $row['titel'] . "<br>" . $row['begindatum'] . "<br>" . $row['omschrijving'];
                 }
                 $result->close();
             }
