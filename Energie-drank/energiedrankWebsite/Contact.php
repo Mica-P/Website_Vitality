@@ -46,6 +46,8 @@
     <section class="info-box">
         <h1>Contact</h1>
         <h2>over ons</h2>
+        <p>Vitality is een beginnend bedrijf dat zich verdiept in energy. Wij maken de beste energy in het land en hebben veel verschillende smaken zoals Cherry, Lemon en Grape en nog veel meer. Als u vragen heeft of als u een klacht heeft kunt u altijd contact met ons opnemen en zullen we altijd proberen een oplossing te vinden. Voor vragen over een van onze producten kunt u natuurlijk ook contact met ons opnemen.</p>
+
     </section>
 
 

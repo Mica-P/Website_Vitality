@@ -100,6 +100,7 @@
     padding: 40px;
   }
   .bigscreen-nav a:hover {color: #F38581;}
+  .backgroundImage-container {position: absolute;}
 /*Niet boven coderen! Beneden hier en Gebruik [ position: absolute ] als je bijv: h1 toevoegt*/
 
 .title-image-container h1 {
@@ -120,7 +121,7 @@
     height: 40vh;
 }
 
-.komendeevenementen{
+img{
    position: absolute;
 }
 

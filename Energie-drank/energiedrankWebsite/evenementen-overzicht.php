@@ -43,7 +43,7 @@
             <li><a href="overons.php">Over Ons</a></li>
         </ul>
     </nav>
-    
+
     <article class="evenementen">
         <?php
         //stap 1
@@ -66,7 +66,7 @@
     </article>
 
     <img src="images/eventdetails.jpg" alt="Evenement">
-    <h1>Evenement details</h1>
+    <!--     <h1>Evenement details</h1>
 
     <h2>Regeks</h2>
     <li>
@@ -79,7 +79,7 @@
  
     <img src="" alt="">
     <img src="" alt="">
-    <img src="" alt="">
+    <img src="" alt=""> -->
 
     <!--Niet onder deze groep code zetten! Boven wel!-->
     <p class="copyright">© 2021 Vitality Energy. All rights reserved</p>

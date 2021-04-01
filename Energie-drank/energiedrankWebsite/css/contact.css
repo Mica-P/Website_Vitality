@@ -119,11 +119,16 @@
     height: 50vh;
     width: 100vw;
 }
-.info-box  h2, p {position: absolute;}
+.info-box  h1, h2 ,p {position: absolute;}
 .info-box h2 {
     margin-top: 10vh;         
 }
-
+.info-box p {
+    position: absolute;
+    margin-top: 30vh;
+    width: 50vw;
+    text-align: center;
+}
 
 
 
