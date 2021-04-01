@@ -47,8 +47,14 @@
     <h1>Producten</h1>
   </section>
 
-
   <div id="images"></div>
+  <section class="mobile-images">
+    <img src="./images/orange.gif" alt="drink1">
+    <img src="./images/lemon-tea.gif" alt="drink2">
+    <img src="./images/cherry.gif" alt="drink3">
+    <img src="./images/grape.gif" alt="drink4">
+    <img class="mobile-info" src="./images/info.png" alt="info">
+  </section>
   <div>
     <img class="info" src="./images/info.png" alt="">
   </div>
