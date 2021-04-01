@@ -23,7 +23,7 @@
                 <li><a href="homepage.php">Homepage</a></li>
                 <li><a href="Evenementen-overzicht.php">Events</a></li>
                 <li><a href="artiesten-overzicht.php">Artiesten</a></li>
-                <li><a href="producten.html">Producten</a></li>
+                <li><a href="producten.php">Producten</a></li>
                 <li><a href="aanbiedingen-overzicht.php">Aanbiedingen</a></li>
                 <li><a href="faq.php">FAQ</a></li>
                 <li><a href="contact.php">Contact</a></li>
@@ -36,22 +36,17 @@
             <li><a href="homepage.php">Homepage</a></li>
             <li><a href="Evenementen-overzicht.php">Events</a></li>
             <li><a href="artiesten-overzicht.php">Artiesten</a></li>
-            <li><a href="producten.html">Producten</a></li>
+            <li><a href="producten.php">Producten</a></li>
             <li><a href="aanbiedingen-overzicht.php">Aanbiedingen</a></li>
             <li><a href="faq.php">FAQ</a></li>
             <li><a href="contact.php">Contact</a></li>
             <li><a href="overons.php">Over Ons</a></li>
         </ul>
     </nav>
-    <section class="title-image-container">
+    <section class="info-box">
         <h1>Contact</h1>
+        <h2>over ons</h2>
     </section>
-    <h2>over ons</h2>
-    <p>Vitality is een beginnend bedrijf dat zich verdiept in energy. Wij maken de beste energy in het land en hebben veel verschillende smaken zoals Cherry, Lemon en Grape en nog veel meer. Als u vragen heeft of als u een klacht heeft kunt u altijd contact met ons opnemen en zullen we altijd proberen een oplossing te vinden. Voor vragen over een van onze producten kunt u natuurlijk ook contact met ons opnemen.
-    <h3>contactgegevens</h3>
-    Emailadressen: infovitality@gmail.com
-    telefoonnummer:0615380762 test
-
 
 
 
