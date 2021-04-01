@@ -68,12 +68,13 @@
     <img src="images/eventdetails.jpg" alt="Evenement">
     <h1>Evenement details</h1>
 
+    <h2>Regeks</h2>
     <li>
 
     </li>
 
     <p>
-
+   
     </p>
  
     <img src="" alt="">
