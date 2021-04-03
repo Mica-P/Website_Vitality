@@ -68,10 +68,13 @@
     <img src="images/eventdetails.jpg" alt="Evenement">
     <h1>Evenement details</h1>
 
-    <h2>Regeks</h2>
-    <li>
+    <<h2>Regeks</h2>
 
-    </li>
+<ul>
+  <li>18+</li>
+  <li>Geen alcohol/drugs</li>
+  <li>Geen geweld</li>
+</ul> 
 
     <p>
    
