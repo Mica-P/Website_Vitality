@@ -70,15 +70,11 @@
 
     <<h2>Regeks</h2>
 
-<ul>
-  <li>18+</li>
-  <li>Geen alcohol/drugs</li>
-  <li>Geen geweld</li>
-</ul> 
-
-    <p>
-
-    </p>
+    <ul>
+    <li>18+</li>
+    <li>Geen alcohol/drugs</li>
+    <li>Geen geweld</li>
+    </ul> 
 
     <img src="" alt="">
     <img src="" alt="">
