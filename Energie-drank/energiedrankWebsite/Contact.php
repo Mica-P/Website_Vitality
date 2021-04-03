@@ -45,7 +45,8 @@
     </nav>
     <section class="info-box">
         <h1>Contact</h1>
-        <h2>over ons</h2>
+        <h2>contactgegevens</h2>
+        <p> Emailadressen: infovitality@gmail.com <br>telefoonnummer:0615380762</p>
     </section>
 
 

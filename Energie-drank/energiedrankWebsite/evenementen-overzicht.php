@@ -43,7 +43,7 @@
             <li><a href="overons.php">Over Ons</a></li>
         </ul>
     </nav>
-    
+
     <article class="evenementen">
         <?php
         //stap 1
@@ -77,9 +77,9 @@
 </ul> 
 
     <p>
-   
+
     </p>
- 
+
     <img src="" alt="">
     <img src="" alt="">
     <img src="" alt="">
@@ -87,7 +87,7 @@
     <!--Niet onder deze groep code zetten! Boven wel!-->
     <p class="copyright">© 2021 Vitality Energy. All rights reserved</p>
     <section class="backgroundImage-container">
-        <img class="website-background" src="./images/background.png" alt="website-background">
+        <!--    <img class="website-background" src="./images/background.png" alt="website-background"> -->
         <img class="mobile-background" src="./images/mobile-achtergrond.png" alt="mobile-background">
     </section>
 </body>

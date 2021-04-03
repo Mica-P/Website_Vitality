@@ -53,7 +53,9 @@
     <img id="orange-can" src="./images/orange-flavor.png" alt="blikje">
   </main>
   <section class="artiesten">
-    <h3>Komede artiesten</h3>
+    <a href="artiesten-overzicht.php">
+      <h3>Komede artiesten</h3>
+    </a>
     <?php
     //stap 1
     $servername = "localhost";
@@ -74,7 +76,9 @@
     ?>
   </section>
   <section class="evenementen">
-    <h3>Komende evenementen</h3>
+    <a href="evenementen-overzicht.php">
+      <h3>Komende evenementen</h3>
+    </a>
     <?php
     $evenementen = "SELECT * FROM evenementen ORDER BY datum LIMIT 3";
     if ($result = $conn->query($evenementen)) {
