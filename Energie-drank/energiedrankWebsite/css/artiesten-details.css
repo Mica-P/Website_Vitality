@@ -1,0 +1,173 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: 0;
+    list-style: none;
+    box-sizing: border-box;
+    overflow: hidden; /* Hide scrollbars */
+}
+
+
+/*mobile */
+@media screen and (min-width: 100px) and (max-width:768px){
+    .bigscreen-nav, .website-background{display: none;}
+    details summary::-webkit-details-marker {display:none;}
+    .hamburger-icon {cursor: pointer;}
+    .mobile-background {
+        height: 100vh;
+        width: 100%;
+    }
+   header {
+       position: absolute;
+       display: flex;
+       justify-content: center;
+       width: 100%;
+       height: 100px;
+       z-index: 1;
+   }
+   summary {
+       display: flex;
+       margin-top: 2vh;
+       margin-left: 80vw;
+       border: 1px solid white;
+       font-size: 3rem;
+       color: white;
+   }
+   details {
+       position: absolute;
+       margin-top: 0vh;
+       height: 100%;
+       width: 100%;
+       z-index: 1;
+    }
+    .mobile-nav {
+        display: flex;
+        justify-content: center;
+        margin-top: 2.5vh;
+        text-align: center;
+        height: 81vh;
+        font-family: 'Montserrat', sans-serif;
+        background-color: #FBD889;
+    } .mobile-nav ul {
+        margin-top: -1vh;
+        line-height: 10vh;
+    }
+   .mobile-nav a{ color: white;}
+   .mobile-nav a:hover{ font-size: 1.2rem; color: #F38581;;}
+
+    .title-image-container  h1{
+        position: absolute;
+        display: flex;
+        width: 100vw;
+        height: 70vw;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+    }
+    .copyright{
+        position: absolute;
+        margin-top: 96vh;
+        margin-left: 10vw;
+        font-family: 'Montserrat', sans-serif;
+        font-size: .8rem;
+        color: #F38581;
+    }
+    .aanbieding-details {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 25vh;
+        width: 100vw;
+        height: 140vw;
+        text-align: center;
+        font-size: 1.7rem;
+        font-family: 'Roboto Condensed', sans-serif;
+
+    }
+    .aanbiedingImage {
+        top: 10vh;
+    }
+    .aanbiedingImage img{
+        position: absolute;
+        margin-top: -30vh;
+        margin-left: 15vw;
+        width: 70vw;
+        height: 30vh;
+        margin-bottom: -10vh;
+    }
+    
+    
+}
+/*Big screen and tablet landscape screen*/
+@media screen and (min-width: 769px){
+   .mobile-nav, .mobile-background, summary, .copyright{display: none;}
+   .logo {
+       position: absolute;
+       height: 100px;
+   }
+   .bigscreen-nav {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-content: space-around;
+        width: 100vw;
+        z-index: 1;
+        margin-top: 3vh;
+   }
+   .bigscreen-nav li{
+        display: inline;
+        font-size: 1.2rem;
+        font-family: 'Montserrat', sans-serif;
+   }
+  .bigscreen-nav a {
+        color: white;
+        padding: 40px;
+  }
+  .bigscreen-nav a:hover {color: #F38581;}
+/*Niet boven coderen! Beneden hier en Gebruik [ position: absolute ] als je bijv: h1 toevoegt*/
+
+    .title-image-container h1 {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        margin-top: 10vh;
+        font-size: 2rem;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        height: 50vh;
+        width: 100vw;
+}
+    .aanbieding-details {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30vh;
+        width: 100vw;
+        height: 50vw;
+        text-align: center;
+        font-size: 2rem;
+        font-family: 'Roboto Condensed', sans-serif;
+}
+.aanbiedingImage img{
+    position: absolute;
+    margin-top: -55vh;
+    height: 40vh;
+}
+
+
+
+
+
+
+
+
+}
+
+
