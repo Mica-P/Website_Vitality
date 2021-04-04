@@ -58,8 +58,8 @@ if ($conn->connect_error) {
     <section class="title-image-container">
         <h1>
             <?php
-            $aanbiedingen = "SELECT * FROM aanbiedingen WHERE aanbiedingen_id = " . $_GET['id'];
-            if ($result = $conn->query($aanbiedingen)) {
+            $artiesten = "SELECT * FROM artiesten WHERE artiest_id = " . $_GET['id'];
+            if ($result = $conn->query($artiesten)) {
                 while ($row = $result->fetch_array(MYSQLI_BOTH)) {
                     echo $row[1];
                 }
@@ -71,8 +71,8 @@ if ($conn->connect_error) {
     <section class="title-image-container aanbieding-details">
         <p>
             <?php
-            $aanbiedingen = "SELECT * FROM aanbiedingen WHERE aanbiedingen_id = " . $_GET['id'];
-            if ($result = $conn->query($aanbiedingen)) {
+            $artiesten = "SELECT * FROM artiesten WHERE artiest_id = " . $_GET['id'];
+            if ($result = $conn->query($artiesten)) {
                 while ($row = $result->fetch_array(MYSQLI_BOTH)) {
 
                     echo  '<section class="aanbiedingImage"><img src="./images/' . $row['afbeelding'] . '"></section>';
