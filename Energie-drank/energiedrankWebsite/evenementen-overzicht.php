@@ -85,6 +85,7 @@
 
     <p>Dit is een pagina over de details</p>
     <p>Van de komende evenementen</p>
+    <p>Hier is een lijst van de regels en overige informatie</p>
 
     <!--Niet onder deze groep code zetten! Boven wel!-->
     <p class="copyright">© 2021 Vitality Energy. All rights reserved</p>
