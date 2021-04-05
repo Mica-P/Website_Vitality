@@ -8,10 +8,10 @@
     <meta name="keywords" content="Vitality, energiedrank, website">
     <meta name="author" content="Mica Paulo, Sijme Heemskerk, Mike van Duyvenbode, Dinand Dummer">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="./css/artiesten-details.css">
+    <link rel="stylesheet" type="text/css" href="./css/aanbieding-details.css">
     <link rel="shortcut icon" href="images/mini-logo.gif">
 
-    <title>artietsen details</title>
+    <title>Aanbiedingen details1</title>
 </head>
 <?php
 //stap 1
@@ -58,8 +58,8 @@ if ($conn->connect_error) {
     <section class="title-image-container">
         <h1>
             <?php
-            $aanbiedingen = "SELECT * FROM aanbiedingen WHERE aanbiedingen_id = " . $_GET['id'];
-            if ($result = $conn->query($aanbiedingen)) {
+            $artiesten = "SELECT * FROM artiesten WHERE artiest_id = " . $_GET['id'];
+            if ($result = $conn->query($artiesten)) {
                 while ($row = $result->fetch_array(MYSQLI_BOTH)) {
                     echo $row[1];
                 }
@@ -71,8 +71,8 @@ if ($conn->connect_error) {
     <section class="title-image-container aanbieding-details">
         <p>
             <?php
-            $aanbiedingen = "SELECT * FROM aanbiedingen WHERE aanbiedingen_id = " . $_GET['id'];
-            if ($result = $conn->query($aanbiedingen)) {
+            $artiesten = "SELECT * FROM artiesten WHERE artiest_id = " . $_GET['id'];
+            if ($result = $conn->query($artiesten)) {
                 while ($row = $result->fetch_array(MYSQLI_BOTH)) {
 
                     echo  '<section class="aanbiedingImage"><img src="./images/' . $row['afbeelding'] . '"></section>';

@@ -46,12 +46,25 @@
     <h1>Artiesten overzicht</h1>
   </section>
 
-  <div class= "blokje">
-    <p>test</p>
-</div>
-
 <div class= "blokje2">
-    <p>test</p>
+<?php
+        //stap 1
+        $servername = "localhost";
+        $username = "root";
+        $password = "";
+        $database = "energy";
+        $conn = new mysqli($servername, $username, $password, $database);
+        if ($conn->connect_error) {
+            die("Connection failed " . $conn->connect_error);
+        }
+        $aanbiedingen = "SELECT naam, achternaam FROM artiesten LIMIT 3";
+        if ($result = $conn->query($aanbiedingen)) {
+            while ($row = $result->fetch_array(MYSQLI_BOTH)) {
+                echo "<a href='artiesten-details.php?id=" . $row[0] . "'>" . $row[0] . "</a>" . "<br>";
+            }
+            $result->close();
+        }
+        ?>
 </div>
 
 
