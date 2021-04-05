@@ -74,6 +74,8 @@
     <li>18+</li>
     <li>Geen alcohol/drugs</li>
     <li>Geen geweld</li>
+    <li>Val geen andere mensen regels</li>
+    <li>maak geen afval</li>
     </ul> 
 
     <img src="" alt="">
