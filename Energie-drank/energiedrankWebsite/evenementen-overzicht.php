@@ -76,6 +76,7 @@
     <li>Geen geweld</li>
     <li>Val geen andere mensen regels</li>
     <li>maak geen afval</li>
+    <li>afstand houden van elkaar</li>
     </ul> 
 
     <img src="images/eventfoto1.jfif" alt="foto evenement1">
