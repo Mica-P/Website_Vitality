@@ -78,9 +78,9 @@
     <li>maak geen afval</li>
     </ul> 
 
-    <img src="" alt="">
-    <img src="" alt="">
-    <img src="" alt="">
+    <img src="images/eventfoto1.jfif" alt="foto evenement1">
+    <img src="images/eventfoto2.jfif" alt="foto evenement2">
+    <img src="images/eventfoto3.jfif" alt="foto evenement3">
 
     <p>Dit is een pagina over de details</p>
     <p>Van de komende evenementen</p>
