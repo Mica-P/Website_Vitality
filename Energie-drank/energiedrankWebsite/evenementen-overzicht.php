@@ -66,7 +66,7 @@
     </article>
 
     <img src="images/eventdetails.jpg" alt="Evenement">
-    <h1>Evenement details</h1>
+    <h1>Details van evenementen</h1>
 
     <<h2>Regels</h2>
 
@@ -81,6 +81,9 @@
     <img src="" alt="">
     <img src="" alt="">
     <img src="" alt="">
+
+    <p>Dit is een pagina over de details</p>
+    <p>Van de komende evenementen</p>
 
     <!--Niet onder deze groep code zetten! Boven wel!-->
     <p class="copyright">© 2021 Vitality Energy. All rights reserved</p>
