@@ -79,9 +79,9 @@
     <li>afstand houden van elkaar</li>
     </ul> 
 
-    <img src="images/eventfoto1.jfif" alt="foto evenement1">
-    <img src="images/eventfoto2.jfif" alt="foto evenement2">
-    <img src="images/eventfoto3.jfif" alt="foto evenement3">
+    <img src="images/eventfoto1.jfif" alt="foto evenement1" heigth="100px">
+    <img src="images/eventfoto2.jfif" alt="foto evenement2" heigth="100px">
+    <img src="images/eventfoto3.jfif" alt="foto evenement3" heigth="100px">
 
     <p>Dit is een pagina over de details</p>
     <p>Van de komende evenementen</p>
