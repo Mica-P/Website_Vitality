@@ -89,5 +89,4 @@
         <img class="mobile-background" src="./images/mobile-achtergrond.png" alt="mobile-background">
     </section>
 </body>
-
 </html>
