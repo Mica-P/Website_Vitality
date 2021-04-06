@@ -77,6 +77,7 @@
     <li>Val geen andere mensen regels</li>
     <li>maak geen afval</li>
     <li>afstand houden van elkaar</li>
+    <li>Bij klachten blijf thuis</li>
     </ul> 
 
     <img src="images/eventfoto1.jfif" alt="foto evenement1" heigth="100px">
