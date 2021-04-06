@@ -68,18 +68,16 @@
 <input type="text" name="Postcode" placeholder="Postcode" required>
 <p>Plaats:</p>
 <input type="text" name="Plaats" placeholder="Plaats" required>
- 
+
 <br>
 
 <p>Geslacht:</p>
 <input type="radio" name="gender" value="male"> Man<br>
 <input type="radio" name="gender" value="female"> Vrouw<br>
 
+<br>
 
-
-
-
-
+<button>Versturen</button>
 
     <!--Niet onder deze groep code zetten! Boven wel!-->
     <p class="copyright">© 2021 Vitality Energy. All rights reserved</p>
