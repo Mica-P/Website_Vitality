@@ -49,6 +49,9 @@
         <p> Emailadressen: infovitality@gmail.com <br>telefoonnummer:0615380762</p>
     </section>
 
+<header>
+
+
 <p>Voornaam:</p>
 <input type="text" name="first-name" placeholder="Voornaam" required>
 
@@ -85,6 +88,9 @@
 
 <button>Versturen</button>
 
+</header>
+
+
     <!--Niet onder deze groep code zetten! Boven wel!-->
     <p class="copyright">© 2021 Vitality Energy. All rights reserved</p>
     <section class="backgroundImage-container">
@@ -92,5 +98,4 @@
         <img class="mobile-background" src="./images/mobile-achtergrond.png" alt="mobile-background">
     </section>
 </body>
-
 </html>
