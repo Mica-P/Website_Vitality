@@ -66,19 +66,27 @@
     </article>
 
     <img src="images/eventdetails.jpg" alt="Evenement">
-    <h1>Evenement details</h1>
+    <h1>Details van evenementen</h1>
 
-    <<h2>Regeks</h2>
+    <<h2>Regels</h2>
 
     <ul>
     <li>18+</li>
     <li>Geen alcohol/drugs</li>
     <li>Geen geweld</li>
+    <li>Val geen andere mensen regels</li>
+    <li>maak geen afval</li>
+    <li>afstand houden van elkaar</li>
+    <li>Bij klachten blijf thuis</li>
     </ul> 
 
-    <img src="" alt="">
-    <img src="" alt="">
-    <img src="" alt="">
+    <img src="images/eventfoto1.jfif" alt="foto evenement1" heigth="100px">
+    <img src="images/eventfoto2.jfif" alt="foto evenement2" heigth="100px">
+    <img src="images/eventfoto3.jfif" alt="foto evenement3" heigth="100px">
+
+    <p>Dit is een pagina over de details</p>
+    <p>Van de komende evenementen</p>
+    <p>Hier is een lijst van de regels en overige informatie</p>
 
     <!--Niet onder deze groep code zetten! Boven wel!-->
     <p class="copyright">© 2021 Vitality Energy. All rights reserved</p>
@@ -87,5 +95,4 @@
         <img class="mobile-background" src="./images/mobile-achtergrond.png" alt="mobile-background">
     </section>
 </body>
-
 </html>
