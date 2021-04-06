@@ -77,13 +77,9 @@
 
 <br>
 
-<div class="dropdown">
-  <button class="dropbtn">Geslacht</button>
-  <div class="dropdown-content">
-    <a href="#">Man</a>
-    <a href="#">Vrouw</a>
-    <a href="#">Anders</a>
-  </div>
+<p>Geslacht:</p>
+<input type="radio" name="gender" value="male"> Man<br>
+<input type="radio" name="gender" value="female"> Vrouw<br>
 
 <br>
 
