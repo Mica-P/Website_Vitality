@@ -55,30 +55,6 @@
 <input type="text" name="tussenvoegsel" placeholder="Tussenvoegsel" required>
 <p>Achternaam:</p>
 <input type="text" name="Achternaam" placeholder="Achternaam" required>
-<p>Straat:</p>
-<input type="text" name="Straat" placeholder="Straat" required>
-<p>Huisnummer:</p>
-<input type="text" name="Huisnummer" placeholder="Huisnummer" required>
-<p>Postcode:</p>
-<input type="text" name="Postcode" placeholder="Postcode" required>
-<p>Plaats:</p>
-<input type="text" name="Plaats" placeholder="Plaats" required>
-<p>School:</p>
-<input type="text" name="School" placeholder="School" required>
-
-
-<p>Geslacht:</p>
-<input type="radio" name="gender" value="male"> Man<br>
-<input type="radio" name="gender" value="female"> Vrouw<br>
-
-<br>
-
-<input type="checkbox" name="Meerderjarig" value="Meerderjarig"> ik ben meerderjarig<br>
-
-<br>
-
-<button>Versturen</button>
-
 
 
 
