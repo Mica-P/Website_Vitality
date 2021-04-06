@@ -145,3 +145,19 @@
     width: 100vw;
 }
 
+.formulier  h1, h2 ,p {position: absolute;}
+.formulier h2 {
+    margin-top: 10vh;         
+}
+.formulier p {
+    position: absolute;
+    margin-top: 30vh;
+    width: 50vw;
+    text-align: center;
+}
+
+
+
+
+
+}
