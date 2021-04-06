@@ -66,14 +66,6 @@
 <p>School:</p>
 <input type="text" name="School" placeholder="School" required>
 
-<p>Vervoer:</p>
-<select name="vervoer">
-   <option value="Fiets"> Fiets</option>
-   <option value="Auto"> Auto</option>
-   <option value="Taxi"> Taxi</option>
-   <option value="Brommer"> Brommer</option>
-   <option value="Motor"> Motor</option>
-</select>
 
 <p>Geslacht:</p>
 <input type="radio" name="gender" value="male"> Man<br>
