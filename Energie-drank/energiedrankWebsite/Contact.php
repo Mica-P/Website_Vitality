@@ -49,7 +49,43 @@
         <p> Emailadressen: infovitality@gmail.com <br>telefoonnummer:0615380762</p>
     </section>
 
+    <p>Voornaam:</p>
+<input type="text" name="first-name" placeholder="Voornaam" required>
+<p>Tussenvoegsel:</p>
+<input type="text" name="tussenvoegsel" placeholder="Tussenvoegsel" required>
+<p>Achternaam:</p>
+<input type="text" name="Achternaam" placeholder="Achternaam" required>
+<p>Straat:</p>
+<input type="text" name="Straat" placeholder="Straat" required>
+<p>Huisnummer:</p>
+<input type="text" name="Huisnummer" placeholder="Huisnummer" required>
+<p>Postcode:</p>
+<input type="text" name="Postcode" placeholder="Postcode" required>
+<p>Plaats:</p>
+<input type="text" name="Plaats" placeholder="Plaats" required>
+<p>School:</p>
+<input type="text" name="School" placeholder="School" required>
 
+<p>Vervoer:</p>
+<select name="vervoer">
+   <option value="Fiets"> Fiets</option>
+   <option value="Auto"> Auto</option>
+   <option value="Taxi"> Taxi</option>
+   <option value="Brommer"> Brommer</option>
+   <option value="Motor"> Motor</option>
+</select>
+
+<p>Geslacht:</p>
+<input type="radio" name="gender" value="male"> Man<br>
+<input type="radio" name="gender" value="female"> Vrouw<br>
+
+<br>
+
+<input type="checkbox" name="Meerderjarig" value="Meerderjarig"> ik ben meerderjarig<br>
+
+<br>
+
+<button>Versturen</button>
 
 
 
