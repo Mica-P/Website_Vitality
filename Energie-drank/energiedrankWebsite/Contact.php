@@ -47,10 +47,9 @@
         <h1>Contact</h1>
         <h2>contactgegevens</h2>
         <p> Emailadressen: infovitality@gmail.com <br>telefoonnummer:0615380762</p>
-    </section>
 
 
-<p>Voornaam:</p>
+        <p>Voornaam:</p>
 <input type="text" name="first-name" placeholder="Voornaam" required>
 
 <br>
@@ -85,6 +84,10 @@
 <br>
 
 <button>Versturen</button>
+    </section>
+
+
+
 
 
     <!--Niet onder deze groep code zetten! Boven wel!-->
