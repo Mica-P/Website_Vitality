@@ -67,6 +67,7 @@
 <p>Postcode:</p>
 <input type="text" name="Postcode" placeholder="Postcode" required>
 <p>Plaats:</p>
+<input type="text" name="Plaats" placeholder="Plaats" required>
  
 <br>
 
