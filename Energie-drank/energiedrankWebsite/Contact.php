@@ -64,6 +64,12 @@
 
 <br>
 
+<p>Geslacht:</p>
+<input type="radio" name="leeftijd" value="leeftijd">leeftijd<br>
+
+
+<br>
+
 <p>Postcode:</p>
 <input type="text" name="Postcode" placeholder="Postcode" required>
 <p>Plaats:</p>
