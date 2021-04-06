@@ -46,8 +46,12 @@
   <section class="title-image-container">
     <h1>Goede doelen</h1>
   </section>
-
-  <div id="images"></div>
+  <section class="slideshow-box">
+    <div id="images"></div>
+  </section>
+  <section class="text-box">
+    <p>Het bedrijf Vitality helpt momenteel een aantal goede doelen.</p>
+  </section>
 
 
 
