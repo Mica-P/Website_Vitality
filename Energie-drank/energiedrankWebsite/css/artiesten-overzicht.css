@@ -110,12 +110,12 @@
   }
 
   .blokje2 {
-    width: 1500px;
-    height: 700px;
     position: absolute;
     margin-top: 25vh;
-    margin-left: 10vh;
+    margin-left: 40vh;
     z-index: 99;
+    font-family: 'Montserrat';
+    
   }
 
   .bigscreen-nav a:hover {color: #F38581;}
@@ -132,6 +132,7 @@
     height: 50vh;
     width: 100vw;
 }
+
 
 
 

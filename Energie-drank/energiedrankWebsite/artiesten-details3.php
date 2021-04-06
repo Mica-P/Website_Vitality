@@ -58,7 +58,7 @@ if ($conn->connect_error) {
     <section class="title-image-container">
         <h1>
             <?php
-            $artiesten = "SELECT naam FROM artiesten where artiest_id='101'";
+            $artiesten = "SELECT naam FROM artiesten where artiest_id='103'";
             if ($result = $conn->query($artiesten)) {
                 while ($row = $result->fetch_array(MYSQLI_BOTH)) {
                     echo $row['0'] . "<br>";
@@ -69,8 +69,8 @@ if ($conn->connect_error) {
         </h1>
     </section>
     <section class="title-image-container aanbieding-details">
-        <h1>... has left the building!</h1>
-        <p>Hij wordt vaak The King of Rock and Roll of kortweg The King genoemd en geldt als een van de meest significante culturele iconen van de twintigste eeuw.</p>
+        <h1>Broken energy can.</h1>
+        <p>Met zijn eerste single White Iverson (2015) werd hij door het grote publiek ontdekt. In augustus van dat jaar sloot hij zich aan bij het label Republic Records, waarna hij nummers zoals Congratulations (met Quavo) en Rockstar (met 21 Savage) produceerde</p>
     </section>
 
 
@@ -81,8 +81,6 @@ if ($conn->connect_error) {
         <img class="website-background" src="./images/background.png" alt="website-background">
         <img class="mobile-background" src="./images/mobile-achtergrond.png" alt="mobile-background">
     </section>
-
-    <section class="elvis"><img class="" class="logo" src="./images/elvis.jpg" alt="logo"></section>
 </body>
 
 </html>

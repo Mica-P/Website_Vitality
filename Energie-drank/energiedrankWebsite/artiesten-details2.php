@@ -58,7 +58,7 @@ if ($conn->connect_error) {
     <section class="title-image-container">
         <h1>
             <?php
-            $artiesten = "SELECT naam FROM artiesten where artiest_id='101'";
+            $artiesten = "SELECT naam, statement FROM artiesten where artiest_id='102'";
             if ($result = $conn->query($artiesten)) {
                 while ($row = $result->fetch_array(MYSQLI_BOTH)) {
                     echo $row['0'] . "<br>";
@@ -69,8 +69,8 @@ if ($conn->connect_error) {
         </h1>
     </section>
     <section class="title-image-container aanbieding-details">
-        <h1>... has left the building!</h1>
-        <p>Hij wordt vaak The King of Rock and Roll of kortweg The King genoemd en geldt als een van de meest significante culturele iconen van de twintigste eeuw.</p>
+        <h1>Energy Monkey Energy!</h1>
+        <p>Haar debuutsingle "Johnny Run Away" verscheen op 1 maart 2019. Haar volgende nummer was "Dance Monkey", dat verscheen op 10 mei 2019. Dat nummer behaalde nummer één in de hitlijsten in Australië</p>
     </section>
 
 
@@ -81,8 +81,6 @@ if ($conn->connect_error) {
         <img class="website-background" src="./images/background.png" alt="website-background">
         <img class="mobile-background" src="./images/mobile-achtergrond.png" alt="mobile-background">
     </section>
-
-    <section class="elvis"><img class="" class="logo" src="./images/elvis.jpg" alt="logo"></section>
 </body>
 
 </html>
