@@ -156,7 +156,11 @@
     text-align: center;
 }
 
-
+.formulier h1 {
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
 
 
 
