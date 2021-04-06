@@ -64,8 +64,8 @@
 
 <br>
 
-<p>Geslacht:</p>
-<input type="radio" name="leeftijd" value="leeftijd">leeftijd<br>
+<p>leeftijd:</p>
+<input type="text" name="Leeftijd" placeholder="Leeftijd" required>
 
 
 <br>
@@ -77,9 +77,13 @@
 
 <br>
 
-<p>Geslacht:</p>
-<input type="radio" name="gender" value="male"> Man<br>
-<input type="radio" name="gender" value="female"> Vrouw<br>
+<div class="dropdown">
+  <button class="dropbtn">Geslacht</button>
+  <div class="dropdown-content">
+    <a href="#">Man</a>
+    <a href="#">Vrouw</a>
+    <a href="#">Anders</a>
+  </div>
 
 <br>
 
