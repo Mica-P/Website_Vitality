@@ -49,8 +49,8 @@
         <p> Emailadressen: infovitality@gmail.com <br>telefoonnummer:0615380762</p>
     </section>
 
-<section class="formulier">
-<p>Voornaam:</p>
+    <section class="formulier">
+    <p>Voornaam:</p>
 <input type="text" name="first-name" placeholder="Voornaam" required>
 
 <br>
