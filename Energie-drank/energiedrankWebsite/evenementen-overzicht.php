@@ -80,9 +80,9 @@
     <li>Bij klachten blijf thuis</li>
     </ul> 
 
-    <img src="images/eventfoto1.jfif" alt="foto evenement1" heigth="100px">
-    <img src="images/eventfoto2.jfif" alt="foto evenement2" heigth="100px">
-    <img src="images/eventfoto3.jfif" alt="foto evenement3" heigth="100px">
+    <img id="foto1" src="images/eventfoto1.jfif" alt="foto evenement1" heigth="100px">
+    <img id="foto2" src="images/eventfoto2.jfif" alt="foto evenement2" heigth="100px">
+    <img id="foto3" src="images/eventfoto3.jfif" alt="foto evenement3" heigth="100px">
 
     <p>Dit is een pagina over de details</p>
     <p>Van de komende evenementen</p>
