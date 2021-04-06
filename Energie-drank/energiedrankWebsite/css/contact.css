@@ -136,4 +136,12 @@
 
 }
 
+.formulier {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+    height: 50vh;
+    width: 100vw;
+}
 
