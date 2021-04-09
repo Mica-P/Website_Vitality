@@ -65,7 +65,7 @@
         ?>
     </article>
 
-    <img src="images/eventdetails.jpg" alt="Evenement">
+    <img class="grotefoto" src="images/eventdetails.jpg" alt="Evenement">
     <h1>Details van evenementen</h1>
 
     <<h2>Regels</h2>
@@ -80,13 +80,13 @@
     <li>Bij klachten blijf thuis</li>
     </ul> 
 
-    <img id="foto1" src="images/eventfoto1.jfif" alt="foto evenement1" heigth="100px">
-    <img id="foto2" src="images/eventfoto2.jfif" alt="foto evenement2" heigth="100px">
-    <img id="foto3" src="images/eventfoto3.jfif" alt="foto evenement3" heigth="100px">
+    <img class="foto1" src="images/eventfoto1.jfif" alt="foto evenement1" heigth="100px">
+    <img class="foto2" src="images/eventfoto2.jfif" alt="foto evenement2" heigth="100px">
+    <img class="foto3" src="images/eventfoto3.jfif" alt="foto evenement3" heigth="100px">
 
     <p>Dit is een pagina over de details</p>
     <p>Van de komende evenementen</p>
-    <p>Hier is een lijst van de regels en overige informatie</p>
+    <p>Hier kan je een lijst van de regels en overige informatie vinden</p>
 
     <!--Niet onder deze groep code zetten! Boven wel!-->
     <p class="copyright">© 2021 Vitality Energy. All rights reserved</p>
