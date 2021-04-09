@@ -70,7 +70,7 @@
 
     <<h2>Regels</h2>
 
-    <ul>
+    <ul class="lijstregels">
     <li>18+</li>
     <li>Geen alcohol/drugs</li>
     <li>Geen geweld</li>
