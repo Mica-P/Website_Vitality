@@ -49,44 +49,7 @@
         <p> Emailadressen: infovitality@gmail.com <br>telefoonnummer:0615380762</p>
     </section>
 
-    <section class="formulier">
-    <p>Voornaam:</p>
-<input type="text" name="first-name" placeholder="Voornaam" required>
-
-<br>
-
-<p>Tussenvoegsel:</p>
-<input type="text" name="tussenvoegsel" placeholder="Tussenvoegsel" required>
-
-<br>
-
-<p>Achternaam:</p>
-<input type="text" name="Achternaam" placeholder="Achternaam" required>
-
-<br>
-
-<p>leeftijd:</p>
-<input type="text" name="Leeftijd" placeholder="Leeftijd" required>
-
-
-<br>
-
-<p>Postcode:</p>
-<input type="text" name="Postcode" placeholder="Postcode" required>
-<p>Plaats:</p>
-<input type="text" name="Plaats" placeholder="Plaats" required>
-
-<br>
-
-<p>Geslacht:</p>
-<input type="radio" name="gender" value="male"> Man<br>
-<input type="radio" name="gender" value="female"> Vrouw<br>
-
-<br>
-
-<button>Versturen</button>
-</section>
-
+    
 
    
 
