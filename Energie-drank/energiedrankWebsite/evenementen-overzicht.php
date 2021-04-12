@@ -66,10 +66,17 @@
     </article>
 
 
+    <img class="grotefoto" src="images/eventdetails.jpg" alt="Evenement">
 
-    <<h2>Regels</h2>
+     
+
+    <img class="foto1" src="images/eventfoto1.jfif" alt="foto evenement1" >
+    <img class="foto2" src="images/eventfoto2.jfif" alt="foto evenement2" >
+    <img class="foto3" src="images/eventfoto3.jfif" alt="foto evenement3" >
+
 
     <ul class="lijstregels">
+     <h2>Regels:</h2>   
     <li>18+</li>
     <li>Geen alcohol/drugs</li>
     <li>Geen geweld</li>
@@ -78,11 +85,6 @@
     <li>afstand houden van elkaar</li>
     <li>Bij klachten blijf thuis</li>
     </ul> 
-
-    <img class="foto1" src="images/eventfoto1.jfif" alt="foto evenement1" >
-    <img class="foto2" src="images/eventfoto2.jfif" alt="foto evenement2" >
-    <img class="foto3" src="images/eventfoto3.jfif" alt="foto evenement3" >
-
 
 
     <article class="pteksten">
