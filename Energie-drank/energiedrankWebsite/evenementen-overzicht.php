@@ -65,8 +65,7 @@
         ?>
     </article>
 
-    <img class="grotefoto" src="images/eventdetails.jpg" alt="Evenement">
-    <h1>Details van evenementen</h1>
+
 
     <<h2>Regels</h2>
 
