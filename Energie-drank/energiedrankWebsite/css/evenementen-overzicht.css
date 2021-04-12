@@ -135,22 +135,20 @@ img{
 .foto1{
    height: 200px;
    margin-right: 200px;
-   margin-left: 500px;
+   margin-left: 550px;
    margin-top:  100px;
 }
 
 .foto2{
     height: 200px;
     margin-right: 100px;
-    margin-left: 500px;
+    margin-left: 550px;
     margin-top: 325px;
 }
 
 .foto3{
     height: 200px;
-    margin-right: 100px;
-    margin-left: 500px;
-    margin-top: 325px;
+    width: 475px;
 }
 
 .lijstregels{
