@@ -84,9 +84,17 @@
     <img class="foto2" src="images/eventfoto2.jfif" alt="foto evenement2" >
     <img class="foto3" src="images/eventfoto3.jfif" alt="foto evenement3" >
 
-    <p>Dit is een pagina over de details</p>
-    <p>Van de komende evenementen</p>
-    <p>Hier kan je een lijst van de regels en overige informatie vinden</p>
+
+
+    <article class="pteksten">
+    <p>Op deze pagina vindt je alle informatie over de komende evenementen</p>
+    <p>Op onze evenementen komen veel bekende artietsen zoals:</p>
+    <p>Tones and i, Post Malone, elvis presley en veel meer!!</p>
+    <p>Op de pagina van artiesten vindt je meer over de artiesten</p>
+    <p>Onze evenement zijn in veel locaties in nederlands zoals:</p>
+    <p>Leiden, Den Haag, Amsterdam, Leiden</p>
+    </article>
+
 
     <!--Niet onder deze groep code zetten! Boven wel!-->
     <p class="copyright">© 2021 Vitality Energy. All rights reserved</p>
