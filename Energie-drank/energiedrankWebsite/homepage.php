@@ -80,10 +80,10 @@
       <h3>Komende evenementen</h3>
     </a>
     <?php
-    $evenementen = "SELECT * FROM evenementen ORDER BY datum LIMIT 3";
+    $evenementen = "SELECT DATE_FORMAT(datum, '%d-%m-%Y') AS datum FROM evenementen ORDER BY datum LIMIT 3";
     if ($result = $conn->query($evenementen)) {
       while ($row = $result->fetch_array(MYSQLI_BOTH)) {
-        echo $row[1] . "  " . "<br>";
+        echo $row["datum"] . "  " . "<br>";
       }
       $result->close();
     }
